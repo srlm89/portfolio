@@ -4,7 +4,7 @@
 * This is a full-implementation of LISP language presented in [LISP 1.5 Manual][2].
 
 
-### Feature
+### Features
 
 This implementation is different from others that can be found on the Internet in two key aspects:
 
@@ -26,14 +26,14 @@ To make this possible, the original implementation of the evaluator presented in
 
 * Testing the [LISP Manual's][2] implementation of `apply` and `eval` in [Racket][4] was very useful in order to analyze and infer the expected behavior of the LISP evaluator. Doing this before starting the python implementation can definitely help to prevent wasting a lot of time.
 
-* This project was inspired by the subject "Theory and Philosophy of Programming Languages" of UBA-FCEN, one of the non-mandatory subjects availabe to complete the M. Sc. in Computer Science. It was implemented by me and Dardo Marasca.
+* This project was inspired by the subject "Theory and Philosophy of Programming Languages" of UBA-FCEN, one of the non-mandatory subjects availabe to complete the M. Sc. in Computer Science. It was implemented by me and [Dardo Marasca][5].
 
 
 [1]: https://en.wikipedia.org/wiki/Meta-circular_evaluator
 [2]: http://www.softwarepreservation.org/projects/LISP/book/LISP%201.5%20Programmers%20Manual.pdf
 [3]: http://norvig.com/lispy.html
 [4]: https://racket-lang.org/
-
+[5]: https://github.com/gefarion
 
 ### Demonstration
 
