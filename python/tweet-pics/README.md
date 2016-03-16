@@ -37,6 +37,10 @@ and ACCESS_TOKEN_SECRET. You can see an example in `./token/credentials-sample.t
         python tweet_pic.py
 
 
+Visit [@selfpole](https://twitter.com/selfpole) and check it out!
+
+
 ### Inspiration
 
 	http://jeremykun.com/2012/01/01/random-psychedelic-art/
+
