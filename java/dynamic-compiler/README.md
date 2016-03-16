@@ -18,3 +18,13 @@ String helloWorld = newInstance.toString();
 System.out.pritnln(helloWorld);
 ```
 
+The following actions are also supported:
+
+* Dynamic compilation of source code explicitly providing the classpath for dependencies as a `URL[]`.
+
+* Dynamic compilation of source code explicitly providing previously dynamically compiled classes for dependencies.
+
+* Dynamic compilation of source code explicitly providing the classpath  _and_ previously dynamically compiled classes for dependencies.
+
+* Creation of `JarPackage`s of the compiled classes.
+
