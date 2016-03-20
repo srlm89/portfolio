@@ -1,0 +1,26 @@
+https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
+
+Synchronized methods:
+---------------------
+
+When one thread is executing a synchronized method for an object, all other threads that invoke synchronized methods for the same object block (suspend execution) until the first thread is done with the object. When a thread invokes a synchronized method, it automatically acquires the intrinsic lock for that method's object and releases it when the method ends. 
+
+
+Synchronized statements:
+------------------------
+
+Synchronized statements specify the object that provides the intrinsic lock. It is used for improving concurrency with fine-grained synchronization.
+
+	public void setA(Object a) {
+		synchronized (lock1) {
+			this.a = a;
+		}
+	}
+	
+	public void setB(Object b) {
+		synchronized (lock2) {
+			this.b = b;
+		}
+	}
+
+In this code, fields `a` and `b` are not set in the same method. Updates on these fields must be synchronized, but there's no reason to prevent an update of `a` from being interleaved with and update of `b`. This is why we don't use synchronized methods, but synchronized statements.
