@@ -1,0 +1,38 @@
+    Usage:
+    
+    Make snapshot of directory:
+    ---------------------------
+    
+    $ java -jar file-list.jar -snapshot <path>
+    
+    It creates a snapshot of the directory indicated by <path>.
+    
+    
+    List files by regex:
+    --------------------
+    
+    $ java -jar file-list.jar -list <type> <path> <regex> <replacement>
+    
+    E.g.,
+
+        java -jar file-list-jar-with-dependencies.jar -list -fs . "^(.*mp3)$" "\$1"
+    
+    It lists files from a directory structure. Only files matching the indicated regular
+    expression <regex> are shown. Files are grouped by the indicated regular expression
+    and they are shown with the <replacement> and not by their names.
+    To list files from a directory, <type> should be "-fs" and <path> must indicate an
+    existing directory. To list files from a snapshot file created with this program,
+    <type> should be "-s" and <path> must be the path of a snapshot file. 
+    
+    
+    Compare directories recursively:
+    --------------------------------
+    
+    $ java -jar file-list.jar -compare <type> <path-1> <path-2>
+    
+    It compares two directory structures. The comparison can either be from the file system
+    structure or from snapshots created with this program.
+    To make a comparison from the file system, <type> should be "-fs" and two directory paths
+    must be provided as <path-1> and <path-2>.
+    To make a comparison from two snapshots, <type> should be "-s" and two snapshot file
+    paths must be provided as <path-1> and <path-2>.
