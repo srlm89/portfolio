@@ -6,7 +6,7 @@ The portfolio is divided by programming language and it includes exercises inspi
 
 Overall, I do not have a favorite programming language. I tend to think that any programming language, given the proper amount of usage and time, can end up being unsatisfying.
 
-What I like about programming is how it enables you to transform abstract thinking into a concrete and visible blueprint. In other words, in this case it is the other way around: _everything that is air melts into solid_. And while the transition from one phase to the other takes place, those thoughts reveal themselves up to the last small detail.
+What I like about programming is how it enables you to transform abstract thinking into a concrete and visible blueprint. In other words, in this case it is the other way around: _all that is air melts into solid_. And while the transition from one phase to the other takes place, those thoughts reveal themselves up to the last small detail.
 
 I think this is one clear way to begin Doug Engelbart's _human intellect augmentation_.
 
