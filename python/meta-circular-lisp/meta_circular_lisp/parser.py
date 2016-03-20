@@ -7,26 +7,26 @@ def atom(token):
 
 
 def tokenize(line):
-    opens = 0
-    pairs = []
+    pairs = 0
+    opens = []
     line = line.strip()
     tokens = line.replace('(', ' ( ').replace(')', ' ) ').split()
     for i in range(len(tokens)):
         token = tokens[i]
         if token == '(':
-            pairs.append('$')
-            opens += 1
+            opens.append('$')
+            pairs += 1
         elif token == ')':
-            if len(pairs) == 0:
+            if len(opens) == 0:
                 raise SyntaxError("Unbalanced closing parentheses ')'")
-            pairs.pop()
+            opens.pop()
         if token == ')' and tokens[i-1] == '.' or token == '.' and (i == 0 or tokens[i-1] == '('):
             raise SyntaxError("Illegal use of dot notation")
         else:
             tokens[i] = atom(token)
-    if len(pairs) > 0:
-        raise SyntaxError('There are %d unclosed parentheses' % len(pairs))
-    if (opens == 0 and len(tokens) != 1) or opens > 0 and (line[0] != '(' or line[-1] != ')'):
+    if len(opens) > 0:
+        raise SyntaxError('There are %d unclosed parentheses' % len(opens))
+    if (pairs == 0 and len(tokens) != 1) or pairs > 0 and (line[0] != '(' or line[-1] != ')'):
         raise SyntaxError('Not a LISP expression (missing surrounding parentheses?)')
     return tokens
 
