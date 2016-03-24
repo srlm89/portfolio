@@ -12,12 +12,12 @@ def heapsort(array):
 
 def push(maxheap, heapsize, i_value):
     i = heapsize
-    parent = (i -1) / 2
+    parent = (i -1) >> 1
     maxheap[i] = i_value
     while parent >= 0 and i_value > maxheap[parent]:
         swap(maxheap, parent, i)
         i = parent
-        parent = (i - 1) / 2
+        parent = (i - 1) >> 1
 
 def pop_max(maxheap, heapsize):
     last = heapsize - 1
@@ -25,8 +25,8 @@ def pop_max(maxheap, heapsize):
     ascend = 0
     while maxheap[ascend] > maxheap[unord]:
         swap(maxheap, unord, ascend)
-        left = 2 * ascend + 1
-        right = 2 * ascend + 2
+        left = 1 + (ascend << 1)
+        right = 1 + left
         if left < last:
             unord = ascend
             if right < last and maxheap[left] < maxheap[right]:

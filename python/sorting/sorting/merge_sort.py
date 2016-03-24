@@ -10,7 +10,7 @@ def mergesort(array):
 
 def mergesortrec(array, copy, start, end):
 	if start < end:
-		mid = (start + end) / 2
+		mid = (start + end) >> 1
 		mergesortrec(array, copy, start, mid)
 		mergesortrec(array, copy, mid + 1, end)
 		mergehalves(array, copy, start, mid, end)
