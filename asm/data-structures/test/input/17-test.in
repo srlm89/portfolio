@@ -1,0 +1,61 @@
+ERASE actual/17-test.out
+INSERT 3 7.546971 Fast and the Furious 2 - 1080p
+PRINT_IN_ORDER actual/17-test.out
+INSERT 1 8.577567 Dante's Peak   1080p
+INSERT 10 9.157824 A Bug's Life [720p]
+REMOVE_ID 3
+PRINT_IN_ORDER actual/17-test.out
+INSERT 6 4.344699 Transformer 1 & 2 Collection   1080p
+INSERT 7 5.493751 Kingdom of Heaven [2005] [720p]
+INSERT 13 8.194808 Superman Batman Public Enemies 2009 720p
+REMOVE_ID 10
+PRINT_IN_ORDER actual/17-test.out
+INSERT 16 5.432232 Back.to.the.Future.Part.II.1989.720p.HDTV.x264
+INSERT 17 6.761948 Hitman    720p
+INSERT 19 6.495697 Big Buck Bunny [1080p]
+INSERT 25 4.359699 Star Trek [2009] [1080p]
+REMOVE_ID 16
+REMOVE_ID 13
+PRINT_IN_ORDER actual/17-test.out
+INSERT 26 2.862772 American Pie Book Of Love   720p
+INSERT 9 2.684720 Dante's Peak   1080p
+INSERT 28 3.054936 American Pie Book Of Love   720p
+INSERT 2 7.646394 Casablana.1942.1080p.BluRay.x264.Codres
+INSERT 21 8.709930 PBS
+REMOVE_ID 7
+REMOVE_ID 9
+PRINT_IN_ORDER actual/17-test.out
+INSERT 32 0.066244 Yes Man   720p
+INSERT 22 5.217374 Rocky 5 [1990] [BluRay] [720p] [AC3]
+INSERT 4 4.972910 Mission Impossible Trilogy   720p
+INSERT 34 3.265668 12 Rounds 720p
+INSERT 35 0.109695 Green Lantern First Flight   720p
+INSERT 12 8.822575 Mission Impossible Trilogy   720p
+REMOVE_ID 26
+REMOVE_ID 19
+REMOVE_ID 4
+PRINT_IN_ORDER actual/17-test.out
+INSERT 14 2.389637 Death Sentence   1080p
+INSERT 37 1.176306 Final Fantasy The Spirits Within    720p
+INSERT 15 9.645320 X-Men 3    720p
+INSERT 41 8.328754 Hulk 2 - The Incredible Hulk - 720p
+INSERT 24 3.610316 Monsters vs Aliens [2009] [720p]
+INSERT 8 1.835056 Monster Inc [2001] [720p]
+INSERT 5 1.239654 1408.2007.720p.BluRay.x264-SiNNERS
+REMOVE_ID 8
+REMOVE_ID 32
+REMOVE_ID 24
+PRINT_IN_ORDER actual/17-test.out
+INSERT 0 9.798343 Swordfish    720p
+INSERT 44 4.234762 The Usual Suspect    720p
+INSERT 30 4.720538 La Lingerie [BluRay] [720p] [DTS]
+INSERT 36 7.512347 Crash    1080p
+INSERT 45 3.714177 Meet The Fockers    720p
+INSERT 49 2.129758 Fantastic Four, Rise Of The Silver Surfer    1080p
+INSERT 18 5.143330 Lawrence of Arabia   1080p
+INSERT 46 2.832794 Bedtime.Stories.720p.BluRay.x264-REFiNED
+REMOVE_ID 14
+REMOVE_ID 41
+REMOVE_ID 49
+REMOVE_ID 2
+PRINT_IN_ORDER actual/17-test.out

@@ -1,0 +1,169 @@
+ERASE actual/54-test.out
+INSERT 35 6.297391 Big Buck Bunny [1080p]
+PRINT_IN_ORDER actual/54-test.out
+INSERT 44 0.859440 Madagascar 1 [2005] [1080p]
+INSERT 10 3.255670 Body of Lies   720p
+REMOVE_ID 10
+PRINT_IN_ORDER actual/54-test.out
+INSERT 41 6.173571 High school musical 2006    720p
+INSERT 17 4.068806 Dragonball Evolution [2009] [720p]
+INSERT 20 5.486028 Leaving Las Vegas  720p
+REMOVE_ID 44
+PRINT_IN_ORDER actual/54-test.out
+INSERT 37 9.264113 The.Godfather.Part.I.1972.720p.BluRay.x264-ESiR
+INSERT 12 9.226369 Good Night And Good Luck   720p
+INSERT 45 8.915456 Facing The Giants 720p
+INSERT 56 6.535689 Aeon Flux   720p
+REMOVE_ID 45
+REMOVE_ID 41
+PRINT_IN_ORDER actual/54-test.out
+INSERT 29 8.990921 Battlestar Galactica The Plan [720p]
+INSERT 6 5.190622 Blood River 720P
+INSERT 58 3.469219 Hulk 1    1080p
+INSERT 11 7.294854 The Chronicle of Riddick 720p
+INSERT 65 9.271862 Kung Fu Panda (BluRay 720p)
+REMOVE_ID 17
+REMOVE_ID 58
+PRINT_IN_ORDER actual/54-test.out
+INSERT 25 0.031068 American Psycho   720p
+INSERT 16 7.509150 Fast and the Furious 1 - 1080p
+INSERT 46 8.591230 Get Smart (2008) 1080p
+INSERT 61 2.094215 Click   1080p
+INSERT 66 2.250203 Max Payne    720p
+INSERT 67 1.346685 The.Godfather.Part.I.1972.720p.BluRay.x264-ESiR
+REMOVE_ID 29
+REMOVE_ID 20
+REMOVE_ID 25
+PRINT_IN_ORDER actual/54-test.out
+INSERT 75 8.394222 Watchmen [720p]
+INSERT 36 8.805402 9 [720p]
+INSERT 52 9.048479 Street Fighter The Legend Of Chun Li 720P
+INSERT 42 0.390297 The Lion King [1994] [720p]
+INSERT 28 7.229304 Orphanage 720p
+INSERT 13 2.885200 Casablana.1942.1080p.BluRay.x264.Codres
+INSERT 14 5.237897 Shoot.Em.Up.720p.Bluray.x264-SEPTiC
+REMOVE_ID 52
+REMOVE_ID 67
+REMOVE_ID 46
+PRINT_IN_ORDER actual/54-test.out
+INSERT 19 9.873831 James Bond 19 - The World is not Enough [1999] [720p]
+INSERT 57 3.422365 Golden Compass   720p
+INSERT 3 0.452493 Equilibrium 720p
+INSERT 83 6.405296 Kung Fu Panda (BluRay 720p)
+INSERT 50 5.708240 Dragon Wars   720p
+INSERT 59 5.107059 Beowulf   720p
+INSERT 51 9.306608 James Bond 22 - Quantum of Solace [2008] [720p]
+INSERT 22 9.956620 Diary.Of.A.Sex.Addict.2008.720p.BluRay.x264-FLHD
+REMOVE_ID 51
+REMOVE_ID 6
+REMOVE_ID 28
+REMOVE_ID 11
+PRINT_IN_ORDER actual/54-test.out
+INSERT 80 4.671615 Around The World In 80 Days [2004] [720p]
+INSERT 71 4.638824 Knowing 2009 720p
+INSERT 74 0.209776 Beauty.And.The.Beast.1991.720p.HDTV.x264-hV
+INSERT 30 1.242806 Final Fantasy VII Advent Children [2005] [1080p]
+INSERT 4 2.736106 Kung Fu Panda Secrets of the Furious Five    720p
+INSERT 18 8.845776 James Bond 16 - Licence to Kill [1989]
+INSERT 8 4.691918 The Matrix [1999] [1080p]
+INSERT 72 3.120986 Lord Of The Ring 1 - Fellowship of the Ring (ExtEd) [1080p]
+INSERT 24 1.016387 Diary.Of.A.Sex.Addict.2008.720p.BluRay.x264-FLHD
+REMOVE_ID 22
+REMOVE_ID 37
+REMOVE_ID 66
+REMOVE_ID 8
+PRINT_IN_ORDER actual/54-test.out
+INSERT 27 0.385028 Hellboy 1    1080p
+INSERT 5 1.120667 Chicken Run [2000] [720p]
+INSERT 38 9.338140 Beauty And The Beast    720p
+INSERT 92 1.055235 The Lion King [1994] [720p]
+INSERT 34 9.717821 Die Hard 4   1080p
+INSERT 1 9.641283 Lord Of The Ring 1 - Fellowship of the Ring (ExtEd) [1080p]
+INSERT 93 3.857448 Iron Man    1080p
+INSERT 48 1.003793 Get Smart (2008) 1080p
+INSERT 100 9.194381 Once.Upon.a.Time.in.China.1991.720p.BluRay.x264-BestHD
+INSERT 23 5.529627 The.Godfather.Part.III.1990.720p.BluRay.x264-SiNNERS_tehPARADOX.COM
+REMOVE_ID 23
+REMOVE_ID 42
+REMOVE_ID 80
+REMOVE_ID 13
+REMOVE_ID 92
+PRINT_IN_ORDER actual/54-test.out
+INSERT 82 9.173378 Ice Age 1 [2002] [720p]
+INSERT 87 2.583962 Star Trek Collection 1-9    720p
+INSERT 104 0.783097 Madagascar 2 Escape 2 Africa [2008] [720p]
+INSERT 15 5.128745 Madagascar 2 Escape 2 Africa [2008] [720p]
+INSERT 33 9.084828 Poseidon   1080p
+INSERT 89 5.990605 Blood River 720P
+INSERT 69 0.065467 Stargate.Continuum.2008.1080p.Bluray.DTS.x264-eVIAN
+INSERT 77 3.964644 Night Train   720p
+INSERT 31 2.883083 Chicken Little 1080p
+INSERT 91 5.252582 Shutter   720p
+INSERT 78 0.491558 Lord Of The Ring  - Return Of The King   720p
+REMOVE_ID 1
+REMOVE_ID 18
+REMOVE_ID 87
+REMOVE_ID 74
+REMOVE_ID 65
+PRINT_IN_ORDER actual/54-test.out
+INSERT 113 3.504989 Black Hawk Down   1080p
+INSERT 90 2.464816 Horseman    720p
+INSERT 102 2.776776 contents.txt
+INSERT 60 0.983186 Terminator Salvation Director's cut  ( 2009)    1080p
+INSERT 112 0.478323 The Secret of Moonarce [720p]
+INSERT 118 9.508379 American Gangster    720p
+INSERT 114 9.750542 Seven Swords    1080p
+INSERT 97 3.282059 La Lingerie [BluRay] [720p] [DTS]
+INSERT 70 2.720722 Ice Age 3 Dawn of the Dinosaurs [2009] [720p]
+INSERT 125 2.326211 My Bloody Valentine 3D    1080p
+INSERT 21 2.823862 Aladdin [1992] [720p]
+INSERT 79 0.379083 Kingdom of Heaven [2005] [720p]
+REMOVE_ID 50
+REMOVE_ID 14
+REMOVE_ID 4
+REMOVE_ID 70
+REMOVE_ID 30
+REMOVE_ID 78
+PRINT_IN_ORDER actual/54-test.out
+INSERT 0 9.203251 SWAT    720p
+INSERT 101 0.286378 Good Night And Good Luck   720p
+INSERT 53 6.272939 Stardust   720p
+INSERT 105 8.056891 Back to the Future Part I [1985] [BluRay] [720p] [AC3] [EN]
+INSERT 99 0.586204 Eagle Eye    1080p
+INSERT 81 8.639387 Batman Cartoon - Gotham Knight   720p
+INSERT 127 4.883191 Equilibrium 720p
+INSERT 88 4.573918 Lord Of The Ring  - The Two Tower   720p
+INSERT 85 4.021866 Juno 2007 720p
+INSERT 111 7.649121 James Bond 01 - Dr. No [1962] [720p]
+INSERT 39 6.385948 War [720p]
+INSERT 130 8.938220 The Last Samurai [2004] [720p]
+INSERT 121 3.692150 Beauty.And.The.Beast.1991.720p.HDTV.x264-hV
+REMOVE_ID 79
+REMOVE_ID 15
+REMOVE_ID 3
+REMOVE_ID 39
+REMOVE_ID 102
+REMOVE_ID 59
+PRINT_IN_ORDER actual/54-test.out
+INSERT 144 8.774445 James Bond 18 - Tommorow Never Dies [1997] [720p]
+INSERT 86 9.408686 Etenal Sunshine of the Spotless Mind [2004] [Bluray] [1080p] [DTS] [EN]
+INSERT 107 7.295873 Lord Of The Ring  - Return Of The King   720p
+INSERT 137 7.659385 Die Hard 2   720p
+INSERT 109 1.209084 Dragon Wars   720p
+INSERT 133 4.373780 Butterfly on a Wheel.2007   720p
+INSERT 136 6.213062 Hush   720p
+INSERT 40 2.528614 Terminator 2 Judgement Day Directors Cut [1991]   1080p
+INSERT 84 7.672358 Star Trek Collection 1-9    720p
+INSERT 119 9.819942 Pixar.Short.Films.Collection.Volume.1.2007.m-HD.x264-TlN50p
+INSERT 110 6.241412 contents.txt
+INSERT 132 5.855004 Crank 2, High Voltage   1080p
+INSERT 138 7.818388 Beowulf   720p
+INSERT 147 0.280031 Apocalypto   720p
+REMOVE_ID 38
+REMOVE_ID 83
+REMOVE_ID 107
+REMOVE_ID 5
+REMOVE_ID 100
+REMOVE_ID 33
+REMOVE_ID 97
+PRINT_IN_ORDER actual/54-test.out

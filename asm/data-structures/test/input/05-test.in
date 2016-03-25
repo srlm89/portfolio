@@ -1,0 +1,19 @@
+ERASE actual/05-test.out
+INSERT 2 5.141403 Dragon Wars   720p
+PRINT_IN_ORDER actual/05-test.out
+INSERT 4 5.744570 Core   720p
+INSERT 0 1.049320 Batman Begins   1080p
+REMOVE_ID 4
+PRINT_IN_ORDER actual/05-test.out
+INSERT 1 3.865267 Gone In 60 Seconds    1080p
+INSERT 3 8.639098 Elite Squad 1080p
+INSERT 10 1.342860 Hancock    1080p
+REMOVE_ID 0
+PRINT_IN_ORDER actual/05-test.out
+INSERT 7 1.479387 American Psycho   720p
+INSERT 12 4.090200 Pirates of Caribbean 1-2-3 Collection   1080p
+INSERT 13 6.694050 City of Embers    720p
+INSERT 5 5.879125 Infernal Affair 1-3   1080p
+REMOVE_ID 13
+REMOVE_ID 10
+PRINT_IN_ORDER actual/05-test.out

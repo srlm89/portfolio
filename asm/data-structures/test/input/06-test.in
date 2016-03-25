@@ -1,0 +1,19 @@
+ERASE actual/06-test.out
+INSERT 1 5.738542 007 Thunderball [1965]  [BluRay] [720p] [DTS]
+PRINT_IN_ORDER actual/06-test.out
+INSERT 5 4.943962 Four Christmases 720P
+INSERT 7 2.899607 Miss March [720p]
+REMOVE_ID 1
+PRINT_IN_ORDER actual/06-test.out
+INSERT 0 4.428666 Lion King, The 720p
+INSERT 2 6.906792 WALL-E.720p.BluRay.x264-iNFAMOUS
+INSERT 6 8.890145 Disaster Movie 2008   720p
+REMOVE_ID 2
+PRINT_IN_ORDER actual/06-test.out
+INSERT 10 8.947343 Hancock    1080p
+INSERT 9 7.948685 Hitman    720p
+INSERT 3 5.655262 Pirates of Caribbean 1-2-3 Collection   1080p
+INSERT 12 3.415222 The Matrix [1999] [1080p]
+REMOVE_ID 7
+REMOVE_ID 0
+PRINT_IN_ORDER actual/06-test.out

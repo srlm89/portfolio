@@ -1,0 +1,75 @@
+ERASE actual/21-test.out
+INSERT 7 9.284685 Full.Metal.Jacket.REMASTERED.1987.720p.HDDVD.x264-SEPTiC
+PRINT_IN_ORDER actual/21-test.out
+INSERT 0 8.838965 X-Men 1 - 1080p
+INSERT 3 8.752421 Alien At The Attic 720P
+REMOVE_ID 3
+PRINT_IN_ORDER actual/21-test.out
+INSERT 13 4.858827 Babylon A.D    720p
+INSERT 2 4.613808 National Tressure 1 - 1080p
+INSERT 15 1.957381 Big Nothing   720p
+REMOVE_ID 15
+PRINT_IN_ORDER actual/21-test.out
+INSERT 18 5.977007 Core   720p
+INSERT 9 9.638383 The Dark Knight [2008]   1080p
+INSERT 10 5.954609 Back to the Future Part I [1985] [BluRay] [720p] [AC3] [EN]
+INSERT 25 0.886985 Spiderman 3   1080p
+REMOVE_ID 10
+REMOVE_ID 2
+PRINT_IN_ORDER actual/21-test.out
+INSERT 6 7.571173 Leon_The Professional.HD   720p
+INSERT 23 1.249761 Jumper    1080p
+INSERT 33 1.495972 Lord Of The Ring  - The Fellowship Of The Ring   720p
+INSERT 21 7.641719 1408.2007.720p.BluRay.x264-SiNNERS
+INSERT 8 9.385480 Ju-on__The_Grudge_(2003)   720p
+REMOVE_ID 18
+REMOVE_ID 23
+PRINT_IN_ORDER actual/21-test.out
+INSERT 26 6.936017 Independence Day 1080p
+INSERT 28 9.440750 Blood River 720P
+INSERT 29 7.008537 War [720p]
+INSERT 12 6.682160 Terminator Salvation Director's cut  ( 2009)    1080p
+INSERT 24 0.361105 Top.Gun.1986.720p.HDDVD.x264-SEPTiC
+INSERT 19 4.642583 Coyote Ugly 1080p
+REMOVE_ID 19
+REMOVE_ID 7
+REMOVE_ID 13
+PRINT_IN_ORDER actual/21-test.out
+INSERT 37 7.527660 Hulk 1    1080p
+INSERT 14 9.907779 Fifty Dead Men Walking   1080p
+INSERT 34 6.751021 8 Mile [2002] [720p]
+INSERT 11 4.114381 Connected   720p
+INSERT 32 5.928199 Fifty Dead Men Walking   1080p
+INSERT 31 6.667995 007.Die Another Day.avi
+INSERT 36 7.194151 The Matrix Revolution   1080p
+REMOVE_ID 14
+REMOVE_ID 25
+REMOVE_ID 21
+PRINT_IN_ORDER actual/21-test.out
+INSERT 35 8.570468 Harold & Kumar   720p
+INSERT 42 2.757046 Basic Instinct 720p
+INSERT 5 4.293498 Incredibles, The 1080p
+INSERT 38 4.465071 James Bond 12 - For Your Eyes Only [1981]
+INSERT 52 3.601742 Indiana.Jones.and.the.Kingdom.of.the.Crystal.Skull    1080p
+INSERT 27 9.185006 Disaster Movie 2008   720p
+INSERT 51 7.573295 Lord Of The Ring  - Return Of The King   720p
+INSERT 56 4.129260 Body of Lies   720p
+REMOVE_ID 34
+REMOVE_ID 24
+REMOVE_ID 11
+REMOVE_ID 33
+PRINT_IN_ORDER actual/21-test.out
+INSERT 1 3.304478 Ice Age 3 Dawn of the Dinosaurs [2009] [720p]
+INSERT 53 8.828840 Firewall 720p
+INSERT 4 5.876720 Pirates of Caribbean 1-2-3 Collection   1080p
+INSERT 30 2.417046 Con Air   720p
+INSERT 58 9.605211 Good Night And Good Luck   720p
+INSERT 22 4.767336 Defiance.1080p
+INSERT 45 6.711165 The.Shawshank.Redemption.1994.1080p.BluRay.x264-CiNEFiLE
+INSERT 60 6.366498 Pearl Harbor
+INSERT 50 9.613759 Beauty And The Beast    720p
+REMOVE_ID 32
+REMOVE_ID 35
+REMOVE_ID 37
+REMOVE_ID 42
+PRINT_IN_ORDER actual/21-test.out

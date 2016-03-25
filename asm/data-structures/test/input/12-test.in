@@ -1,0 +1,37 @@
+ERASE actual/12-test.out
+INSERT 11 1.394242 Babel.720p
+PRINT_IN_ORDER actual/12-test.out
+INSERT 2 7.188908 Oceans.Twelve.2004.720p.HDDVD.x264-CDDHD
+INSERT 12 2.052772 Batman Dark Knight   1080p
+REMOVE_ID 11
+PRINT_IN_ORDER actual/12-test.out
+INSERT 9 6.489707 Liar Liar    720p
+INSERT 16 3.101614 Race To Witch Mountain [1080p]
+INSERT 13 1.123973 The Matrix   1080p
+REMOVE_ID 9
+PRINT_IN_ORDER actual/12-test.out
+INSERT 3 2.548314 Burn E [720p]
+INSERT 14 8.572433 PBS
+INSERT 10 4.913389 The Uninvited [2009] [720p]
+INSERT 17 5.488603 Fast and the Furious 1 - 1080p
+REMOVE_ID 10
+REMOVE_ID 2
+PRINT_IN_ORDER actual/12-test.out
+INSERT 4 8.390376 Back to the Future Part I [1985] [BluRay] [720p] [AC3] [EN]
+INSERT 19 1.126100 Watchmen [720p]
+INSERT 24 3.755215 How To Lose Friends & Alienate People   1080p
+INSERT 7 9.504220 Alien vs Predator 1-2  720p
+INSERT 8 7.199664 3_10 to Yuma   720p
+REMOVE_ID 3
+REMOVE_ID 8
+PRINT_IN_ORDER actual/12-test.out
+INSERT 25 2.858791 Seven Pounds    720p
+INSERT 22 7.844870 Dark.knight, The.2008.720p.bluray.x264-sinners
+INSERT 26 9.045969 Elektra 720p
+INSERT 5 6.123682 High school musical II 2007    720p
+INSERT 15 2.115612 X-Men 3    720p
+INSERT 28 4.218304 Toy.Story.2.HD.720p.Hebrew.Dubbed.Also.English.x264-ALiS_20
+REMOVE_ID 28
+REMOVE_ID 22
+REMOVE_ID 7
+PRINT_IN_ORDER actual/12-test.out

@@ -1,0 +1,61 @@
+ERASE actual/18-test.out
+INSERT 9 6.761053 James Bond 18 - Tommorow Never Dies [1997] [720p]
+PRINT_IN_ORDER actual/18-test.out
+INSERT 4 4.845748 Oceans.Eleven.2001.720p.HDDVD.x264-SiNNERS
+INSERT 20 1.753484 Terminator 3 Rise Of The Machine [2003]   720p
+REMOVE_ID 9
+PRINT_IN_ORDER actual/18-test.out
+INSERT 6 5.199637 La Lingerie [BluRay] [720p] [DTS]
+INSERT 2 8.217101 Good Night And Good Luck   720p
+INSERT 21 6.328435 Apocalypto   720p
+REMOVE_ID 2
+PRINT_IN_ORDER actual/18-test.out
+INSERT 24 1.502154 contents.txt
+INSERT 0 2.892372 Bugs.A.Rainforest.Adventure.3D.HD.DVD.REMUX.1080p.VC-1-SEBUL
+INSERT 3 0.400278 contents.txt
+INSERT 8 4.133946 Ice Age 3 Dawn of the Dinosaurs [2009] [720p]
+REMOVE_ID 4
+REMOVE_ID 8
+PRINT_IN_ORDER actual/18-test.out
+INSERT 10 1.464709 Land Of the Lost   720p
+INSERT 25 7.639679 iRobot  720p
+INSERT 22 4.043127 Kung Fu Panda Secrets of the Furious Five    720p
+INSERT 23 4.718281 Saving Private Ryan 720p
+INSERT 12 3.806339 Pirates of Caribbean 1-2-3 Collection   1080p
+REMOVE_ID 12
+REMOVE_ID 22
+PRINT_IN_ORDER actual/18-test.out
+INSERT 7 2.627901 Around The World In 80 Days [2004] [720p]
+INSERT 19 4.147032 007 The Man With the Golden Gun [1974] [BluRay] [720p] [DTS]
+INSERT 1 3.205447 The.Escape.2009.1080p.BluRay.x264-BestHD
+INSERT 31 2.318892 Night Train   720p
+INSERT 27 6.353611 The.Shawshank.Redemption.1994.1080p.BluRay.x264-CiNEFiLE
+INSERT 11 4.711527 Scooby.Doo.The.Mystery.Begins.2009   720p
+REMOVE_ID 11
+REMOVE_ID 23
+REMOVE_ID 7
+PRINT_IN_ORDER actual/18-test.out
+INSERT 32 0.442143 Battle for Terra [2007] [1080p]
+INSERT 29 5.518231 Resident Evil Series    1080p
+INSERT 33 6.961686 The Bank Job [720p]
+INSERT 14 5.433850 Terminator Salvation Director's cut  ( 2009)    1080p
+INSERT 34 2.222172 Lion King, The 720p
+INSERT 43 6.022127 Harry Potter Collection    720p
+INSERT 37 6.757347 James Bond 11 - MoonRaker [1979]
+REMOVE_ID 20
+REMOVE_ID 3
+REMOVE_ID 37
+PRINT_IN_ORDER actual/18-test.out
+INSERT 42 2.294480 Seven Pounds    720p
+INSERT 39 0.365378 Around The World In 80 Days [2004] [720p]
+INSERT 41 5.271872 Wanted   1080p
+INSERT 30 3.016658 X-Men 1    720p
+INSERT 13 7.373203 Monster Inc [2001] [720p]
+INSERT 38 6.068813 In The Electrical Mist   720p
+INSERT 15 0.353136 The.X.Files.Fight.The.Future.1998.720p.BluRay.x264-SiNNERS
+INSERT 28 9.921403 Home Alone 1 & 2   720p
+REMOVE_ID 30
+REMOVE_ID 25
+REMOVE_ID 6
+REMOVE_ID 42
+PRINT_IN_ORDER actual/18-test.out

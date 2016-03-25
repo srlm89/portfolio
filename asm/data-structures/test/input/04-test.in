@@ -1,0 +1,12 @@
+ERASE actual/04-test.out
+INSERT 4 7.808479 Wanted   1080p
+PRINT_IN_ORDER actual/04-test.out
+INSERT 0 5.080486 District 9 [2009] [720p]
+INSERT 5 8.216813 Punisher 2   720p
+REMOVE_ID 5
+PRINT_IN_ORDER actual/04-test.out
+INSERT 1 5.696067 Gone In 60 Seconds    1080p
+INSERT 3 3.445849 Horseman    720p
+INSERT 8 6.867041 Behind Enemy Line 2001   720p
+REMOVE_ID 8
+PRINT_IN_ORDER actual/04-test.out

@@ -1,0 +1,12 @@
+ERASE actual/03-test.out
+INSERT 3 1.543721 300   720p
+PRINT_IN_ORDER actual/03-test.out
+INSERT 1 1.864911 The Tale Of Despereaux [720p]
+INSERT 4 4.287962 Golden Compass   720p
+REMOVE_ID 4
+PRINT_IN_ORDER actual/03-test.out
+INSERT 6 9.281027 Into The Blue 720P
+INSERT 7 9.889401 Harry Potter Collection    720p
+INSERT 0 9.370354 Pitch Black [720p]
+REMOVE_ID 7
+PRINT_IN_ORDER actual/03-test.out

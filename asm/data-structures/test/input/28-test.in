@@ -1,0 +1,91 @@
+ERASE actual/28-test.out
+INSERT 13 7.031321 Dolphin    720p
+PRINT_IN_ORDER actual/28-test.out
+INSERT 15 3.165491 Miami Vice 720p
+INSERT 10 9.631098 Ratatouille [2007]
+REMOVE_ID 15
+PRINT_IN_ORDER actual/28-test.out
+INSERT 6 8.586428 Eagle Eye    1080p
+INSERT 14 6.549114 Hitman    720p
+INSERT 28 5.236125 The Butterfly Effect [2004] [720p]
+REMOVE_ID 6
+PRINT_IN_ORDER actual/28-test.out
+INSERT 20 9.209619 Once.Upon.a.Time.in.China.1991.720p.BluRay.x264-BestHD
+INSERT 27 0.180357 The Mist   720p
+INSERT 33 4.388742 Saving Private Ryan 720p
+INSERT 11 8.950659 Beowulf   720p
+REMOVE_ID 10
+REMOVE_ID 11
+PRINT_IN_ORDER actual/28-test.out
+INSERT 37 6.536831 Horton Hears a Who! [2008] [720p]
+INSERT 5 9.940699 Die Hard 1   720p
+INSERT 9 5.308644 The Butterfly Effect 3 Revelations 720p
+INSERT 24 0.842364 Butterfly on a Wheel.2007   720p
+INSERT 39 4.362417 New York I Love You 720p   720p
+REMOVE_ID 33
+REMOVE_ID 13
+PRINT_IN_ORDER actual/28-test.out
+INSERT 0 8.105081 James Bond 19 - The World is not Enough [1999] [720p]
+INSERT 4 5.022144 The Mummy Tomb Of The Dragon Emperor   720p
+INSERT 31 3.101828 All About Steve 720P
+INSERT 23 4.854158 Assassination of a High School President 720p
+INSERT 22 4.301261 SWAT    720p
+INSERT 19 5.413094 James Bond 18 - Tommorow Never Dies [1997] [720p]
+REMOVE_ID 31
+REMOVE_ID 39
+REMOVE_ID 19
+PRINT_IN_ORDER actual/28-test.out
+INSERT 45 7.889412 Dark.knight, The.2008.720p.bluray.x264-sinners
+INSERT 12 4.219298 All About Steve 720P
+INSERT 35 4.583077 The.Escape.2009.1080p.BluRay.x264-BestHD
+INSERT 42 4.790488 Ice Age 2 The Meltdown [2006] [720p]
+INSERT 7 0.606391 Terminator Salvation Director's cut  ( 2009)    1080p
+INSERT 18 7.545825 James Bond 08 - Live and Let Die [1973]
+INSERT 25 2.906829 X-Men 1 - 1080p
+REMOVE_ID 35
+REMOVE_ID 27
+REMOVE_ID 37
+PRINT_IN_ORDER actual/28-test.out
+INSERT 30 6.144557 Before The Devil Knows, You're Dead   1080p
+INSERT 44 1.395599 Oxford Murders, The.720p
+INSERT 49 9.128257 Yes Man   720p
+INSERT 58 8.617486 Pixar.Shorts.2009.720p.BluRay.AC3.x264-UNiT3D
+INSERT 3 5.052039 Madagascar 2 Escape 2 Africa [2008] [720p]
+INSERT 16 9.958798 Oceans.Eleven.2001.720p.HDDVD.x264-SiNNERS
+INSERT 1 8.725827 James Bond 19 - The World is not Enough [1999] [720p]
+INSERT 52 7.118390 Bourne Identity   720p
+REMOVE_ID 44
+REMOVE_ID 25
+REMOVE_ID 18
+REMOVE_ID 14
+PRINT_IN_ORDER actual/28-test.out
+INSERT 21 2.109689 Blood River 720P
+INSERT 29 8.147960 007.1983.Octopussy.720p.hdtv.x264
+INSERT 54 7.798219 Lord Of The Ring  - The Fellowship Of The Ring   720p
+INSERT 50 4.359997 Independence Day 1080p
+INSERT 61 8.267419 The Mist   720p
+INSERT 57 9.995784 High school musical II 2007    720p
+INSERT 66 6.356047 Ong.Bak.2.2008.BluRay.x264-BestHD   720p
+INSERT 53 2.669527 Horton Hears a Who! [2008] [720p]
+INSERT 34 9.989685 Inkheart [2008] [720p]
+REMOVE_ID 57
+REMOVE_ID 50
+REMOVE_ID 42
+REMOVE_ID 3
+PRINT_IN_ORDER actual/28-test.out
+INSERT 71 3.181815 Ice Age 1 [2002] [720p]
+INSERT 51 1.564732 The.Escape.2009.1080p.BluRay.x264-BestHD
+INSERT 67 7.772171 The.Escape.2009.1080p.BluRay.x264-BestHD
+INSERT 76 7.828785 Ghost Rider [2007] [720p]
+INSERT 47 9.479325 The Proposal [2009] [720p]
+INSERT 78 8.360172 Horseman    720p
+INSERT 2 0.167212 Lion King, The 720p
+INSERT 26 6.919353 Next 720P
+INSERT 32 9.850750 Species   720p
+INSERT 70 1.189371 Minority Report [720p]
+REMOVE_ID 34
+REMOVE_ID 52
+REMOVE_ID 23
+REMOVE_ID 1
+REMOVE_ID 54
+PRINT_IN_ORDER actual/28-test.out

@@ -1,0 +1,27 @@
+ERASE actual/07-test.out
+INSERT 6 0.440457 Etenal Sunshine of the Spotless Mind [2004] [Bluray] [1080p] [DTS] [EN]
+PRINT_IN_ORDER actual/07-test.out
+INSERT 8 3.218007 Se7en [720p]
+INSERT 1 9.928678 Blade 2   720p
+REMOVE_ID 8
+PRINT_IN_ORDER actual/07-test.out
+INSERT 7 2.259174 The Final Destination 4 [2009] [720p]
+INSERT 9 1.478617 Superhero Movie   1080p
+INSERT 5 2.681978 Public Enemies [720p]
+REMOVE_ID 9
+PRINT_IN_ORDER actual/07-test.out
+INSERT 2 4.652518 Click   1080p
+INSERT 10 5.616419 James Bond 09 - The Man with the Golden Gun [1974]
+INSERT 3 3.104041 Fantastic Four, Rise Of The Silver Surfer    1080p
+INSERT 4 6.889559 Toy.Story.1995.720p.HDTV.x264-CtrlHD
+REMOVE_ID 5
+REMOVE_ID 4
+PRINT_IN_ORDER actual/07-test.out
+INSERT 0 4.986131 Around The World In 80 Days [2004] [720p]
+INSERT 12 7.989445 Oceans.Thirteen.2007.720p.HDDVD.x264-SiNNERS
+INSERT 18 1.242429 300   720p
+INSERT 15 7.446718 Alvin And The Chipmunks [720p]
+INSERT 20 0.319290 Beauty And The Beast    720p
+REMOVE_ID 7
+REMOVE_ID 2
+PRINT_IN_ORDER actual/07-test.out

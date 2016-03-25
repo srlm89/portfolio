@@ -1,0 +1,108 @@
+ERASE actual/35-test.out
+INSERT 14 3.202893 The Brave One 720P
+PRINT_IN_ORDER actual/35-test.out
+INSERT 24 6.441691 Incredibles, The 1080p
+INSERT 8 7.089989 Incredibles, The 1080p
+REMOVE_ID 24
+PRINT_IN_ORDER actual/35-test.out
+INSERT 37 5.669189 Sex drive   720p
+INSERT 32 0.176816 Street Fighter The Legend Of Chun Li 720P
+INSERT 2 9.452291 Horton Hears a Who! [2008] [720p]
+REMOVE_ID 2
+PRINT_IN_ORDER actual/35-test.out
+INSERT 21 0.323704 The Haunting In Connecticut [2009] [720p]
+INSERT 30 6.987200 Pirates of Caribbean 1-2-3 Collection   1080p
+INSERT 31 7.974541 Four Christmases 720P
+INSERT 25 7.223049 Final Destination
+REMOVE_ID 30
+REMOVE_ID 14
+PRINT_IN_ORDER actual/35-test.out
+INSERT 45 2.044820 Fantastic Four   1080p
+INSERT 0 4.680714 Horseman    720p
+INSERT 41 1.724587 Romeo And Juliet   720p
+INSERT 17 5.092971 Constantine 720p
+INSERT 34 0.652333 Underworld Series
+REMOVE_ID 21
+REMOVE_ID 0
+PRINT_IN_ORDER actual/35-test.out
+INSERT 42 4.044972 3_10 to Yuma   720p
+INSERT 23 6.104682 Die Hard 2   720p
+INSERT 49 8.121557 Memento    1080p
+INSERT 18 2.259264 Bolt [2008] [1080p]
+INSERT 27 9.810241 Race To Witch Mountain [1080p]
+INSERT 7 7.581909 12 Rounds 720p
+REMOVE_ID 17
+REMOVE_ID 31
+REMOVE_ID 25
+PRINT_IN_ORDER actual/35-test.out
+INSERT 28 4.483050 Invisible.Target.720p.Bluray.x264-SEPTiC
+INSERT 10 5.246849 Good Night And Good Luck   720p
+INSERT 58 3.776302 Independence Day 1080p
+INSERT 20 5.733552 Leon_The Professional.HD   720p
+INSERT 36 2.418994 Indiana.Jones.and.the.Kingdom.of.the.Crystal.Skull    1080p
+INSERT 22 4.945523 Click   1080p
+INSERT 4 4.560262 Die Hard 3   720p
+REMOVE_ID 32
+REMOVE_ID 49
+REMOVE_ID 23
+PRINT_IN_ORDER actual/35-test.out
+INSERT 62 2.517719 The Butterfly Effect 3 Revelations 720p
+INSERT 63 2.060821 The Matrix [1999] [1080p]
+INSERT 46 3.222658 The.Godfather.Part.I.1972.720p.BluRay.x264-ESiR
+INSERT 51 6.299857 007.1967.You.Only.Live.Twice.720p.hdtv.x264-nbs
+INSERT 35 1.511070 Bugs.A.Rainforest.Adventure.3D.HD.DVD.REMUX.1080p.VC-1-SEBUL
+INSERT 54 5.103778 007 Thunderball [1965]  [BluRay] [720p] [DTS]
+INSERT 55 7.018260 Blood - The Last Vampire [2009] [720p]
+INSERT 33 1.764245 Bangkok Dangerous 720p
+REMOVE_ID 20
+REMOVE_ID 63
+REMOVE_ID 45
+REMOVE_ID 8
+PRINT_IN_ORDER actual/35-test.out
+INSERT 59 9.599373 SAW I   720p
+INSERT 29 7.550818 Dragon Wars   720p
+INSERT 56 8.724433 Leaving Las Vegas  720p
+INSERT 69 9.267142 Red Dragon    1080p
+INSERT 68 0.015829 Superhero Movie   1080p
+INSERT 38 7.885421 Alien At The Attic 720P
+INSERT 3 8.834996 The Brave One 720P
+INSERT 43 4.127758 8 Mile [2002] [720p]
+INSERT 11 6.564180 Elektra 720p
+REMOVE_ID 28
+REMOVE_ID 62
+REMOVE_ID 54
+REMOVE_ID 35
+PRINT_IN_ORDER actual/35-test.out
+INSERT 67 4.599673 The Proposal [2009] [720p]
+INSERT 44 0.815376 Rocky 4 [1985] [BluRay] [720p] [AC3]
+INSERT 81 2.583835 Watchmen [720p]
+INSERT 52 3.867922 A Bug's Life [720p]
+INSERT 82 4.731084 007 Goldfinger [1964] [BluRay] [720p] [DTS]
+INSERT 50 8.817111 The Last Samurai [2004] [720p]
+INSERT 26 1.931459 Leon_The Professional.HD   720p
+INSERT 79 6.069552 Spiderman 3   1080p
+INSERT 78 2.263811 Jurassic Park 1-3  1080p
+INSERT 87 1.372940 The Butterfly Effect [2004] [720p]
+REMOVE_ID 55
+REMOVE_ID 69
+REMOVE_ID 46
+REMOVE_ID 18
+REMOVE_ID 22
+PRINT_IN_ORDER actual/35-test.out
+INSERT 48 7.004726 contents.txt
+INSERT 90 3.987119 X-Men 3    720p
+INSERT 15 3.922610 I Am Legend    720p
+INSERT 19 4.077302 Final Fantasy VII Advent Children [2005] [1080p]
+INSERT 94 0.461134 The.Godfather.Part.I.1972.720p.BluRay.x264-ESiR
+INSERT 40 5.941414 The Butterfly Effect [2004] [720p]
+INSERT 77 6.391555 Charlie and the Chocolate Factory   720p
+INSERT 70 4.738575 Home    1080p
+INSERT 84 9.758039 Lord Of The Ring 1 - Fellowship of the Ring (ExtEd) [1080p]
+INSERT 98 5.973291 Lion King, The 720p
+INSERT 13 2.111688 Kung Fu Hustle   720p
+REMOVE_ID 3
+REMOVE_ID 78
+REMOVE_ID 58
+REMOVE_ID 44
+REMOVE_ID 42
+PRINT_IN_ORDER actual/35-test.out

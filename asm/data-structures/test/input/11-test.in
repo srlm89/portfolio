@@ -1,0 +1,37 @@
+ERASE actual/11-test.out
+INSERT 2 1.767697 Swordfish    720p
+PRINT_IN_ORDER actual/11-test.out
+INSERT 3 8.476863 Darko 720P
+INSERT 5 3.103679 3_10 to Yuma   720p
+REMOVE_ID 2
+PRINT_IN_ORDER actual/11-test.out
+INSERT 10 3.801109 Oceans.Eleven.2001.720p.HDDVD.x264-SiNNERS
+INSERT 9 1.637623 Ongbak 2003 720p
+INSERT 16 3.080246 My Bloody Valentine 3D    1080p
+REMOVE_ID 5
+PRINT_IN_ORDER actual/11-test.out
+INSERT 4 6.830491 Meet The Parents    720p
+INSERT 12 7.116558 Click   1080p
+INSERT 6 8.828431 Superman Returns   720p
+INSERT 14 0.403220 Chicken Little 1080p
+REMOVE_ID 16
+REMOVE_ID 14
+PRINT_IN_ORDER actual/11-test.out
+INSERT 15 9.065691 James Bond 21 - Casino Royale [2006]
+INSERT 13 9.732822 James Bond 19 - The World is not Enough [1999] [720p]
+INSERT 1 0.262231 Golden Compass   720p
+INSERT 23 9.549008 James Bond 15 - The Living Daylights [1987] [720p]
+INSERT 7 9.338239 G.I.Joe The Rise of Cobra [2009] [720p]
+REMOVE_ID 3
+REMOVE_ID 6
+PRINT_IN_ORDER actual/11-test.out
+INSERT 21 2.746969 Con Air   720p
+INSERT 24 8.275144 Cellular.2004.HDTV.720p.AC3.x264-BTT
+INSERT 20 2.454561 Beauty.And.The.Beast.1991.720p.HDTV.x264-hV
+INSERT 25 7.153915 Drag Me To Hell [720p]
+INSERT 29 2.221869 Seven Swords    1080p
+INSERT 28 3.405432 contents.txt
+REMOVE_ID 1
+REMOVE_ID 29
+REMOVE_ID 10
+PRINT_IN_ORDER actual/11-test.out

@@ -1,0 +1,27 @@
+ERASE actual/08-test.out
+INSERT 5 6.225873 Bee Movie   720p
+PRINT_IN_ORDER actual/08-test.out
+INSERT 8 8.855455 Se7en [720p]
+INSERT 4 5.833890 Firewall 720p
+REMOVE_ID 8
+PRINT_IN_ORDER actual/08-test.out
+INSERT 6 1.630146 Juno 2007 720p
+INSERT 0 6.078422 Chicken Little 1080p
+INSERT 10 8.231944 XxX.2002.BDRiP.720p.AC3.5.1.READnfo.x264-DEFiNiTiON
+REMOVE_ID 5
+PRINT_IN_ORDER actual/08-test.out
+INSERT 11 4.164875 La Vita e Bella    720p
+INSERT 12 1.150531 Sky.Captain.And.The.World.Of.Tomorrow[www.x1949x.com]    720p
+INSERT 13 2.864486 contents.txt
+INSERT 3 9.659047 Dark.knight, The.2008.720p.bluray.x264-sinners
+REMOVE_ID 13
+REMOVE_ID 6
+PRINT_IN_ORDER actual/08-test.out
+INSERT 9 3.367086 contents.txt
+INSERT 19 5.164733 Star Trek [2009] [1080p]
+INSERT 17 1.446695 Final Destination 3   1080p
+INSERT 1 1.010638 Die Hard 3   720p
+INSERT 2 4.950225 contents.txt
+REMOVE_ID 12
+REMOVE_ID 17
+PRINT_IN_ORDER actual/08-test.out

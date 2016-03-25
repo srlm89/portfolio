@@ -1,0 +1,91 @@
+ERASE actual/27-test.out
+INSERT 13 2.179002 The.Shawshank.Redemption.1994.1080p.BluRay.x264-CiNEFiLE
+PRINT_IN_ORDER actual/27-test.out
+INSERT 2 6.953044 007 Series
+INSERT 1 8.991853 James Bond 03 - GoldFinger [1964]
+REMOVE_ID 1
+PRINT_IN_ORDER actual/27-test.out
+INSERT 18 9.594158 The Incredibles [1080p]
+INSERT 21 6.507102 Final Destination 4   1080p
+INSERT 0 0.890168 Final Fantasy VII Advent Children [2005] [1080p]
+REMOVE_ID 18
+PRINT_IN_ORDER actual/27-test.out
+INSERT 33 9.079994 The Incredibles [1080p]
+INSERT 24 7.532468 Jerry Maguire    1080p
+INSERT 19 4.878529 Die Hard 3   720p
+INSERT 10 4.563026 Star Wars Saga  Collection 720p
+REMOVE_ID 24
+REMOVE_ID 2
+PRINT_IN_ORDER actual/27-test.out
+INSERT 16 5.283316 007 Licence to Kill [1989] [BluRay] [720p] [DTS]
+INSERT 22 9.531670 Saving Private Ryan 720p
+INSERT 20 1.779383 The.Warlords.2007.720p.BluRay.DTS.x264-ESiR
+INSERT 29 8.517086 Core   720p
+INSERT 27 4.892242 Apocalypto   720p
+REMOVE_ID 22
+REMOVE_ID 20
+PRINT_IN_ORDER actual/27-test.out
+INSERT 41 2.683920 Firewall 720p
+INSERT 11 0.897612 Elektra 720p
+INSERT 30 8.115841 The Usual Suspect    720p
+INSERT 23 7.000751 Bridge To Terabithia 720P
+INSERT 38 8.653679 Lord of war   720p
+INSERT 46 4.956421 Romeo And Juliet   720p
+REMOVE_ID 0
+REMOVE_ID 29
+REMOVE_ID 21
+PRINT_IN_ORDER actual/27-test.out
+INSERT 6 8.178655 Pursuit_Of_Happyness[2006]   720p
+INSERT 25 8.567392 Dante's Peak   1080p
+INSERT 9 1.465954 Public Enemies [720p]
+INSERT 35 5.699542 The Chronicle of Riddick 720p
+INSERT 42 4.674672 13.Going.on.30.2004.720p.BluRay.x264-METiS_tehPARADOX.COM
+INSERT 52 9.391315 Starship Troopers 2  720p
+INSERT 15 0.397697 Max Payne    720p
+REMOVE_ID 52
+REMOVE_ID 42
+REMOVE_ID 15
+PRINT_IN_ORDER actual/27-test.out
+INSERT 49 9.147022 Oceans.Thirteen.2007.720p.HDDVD.x264-SiNNERS
+INSERT 34 6.030133 X-Men 1    720p
+INSERT 53 0.009510 12 Rounds 720p
+INSERT 51 9.613880 The Tale Of Despereaux [720p]
+INSERT 37 0.813483 Aladdin [1992] [720p]
+INSERT 36 4.037579 contents.txt
+INSERT 48 0.396896 Toy.Story.1995.720p.HDTV.x264-CtrlHD
+INSERT 43 6.951649 Assassination of a High School President 720p
+REMOVE_ID 25
+REMOVE_ID 19
+REMOVE_ID 35
+REMOVE_ID 30
+PRINT_IN_ORDER actual/27-test.out
+INSERT 61 1.700019 Diary.Of.A.Sex.Addict.2008.720p.BluRay.x264-FLHD
+INSERT 17 3.605134 Chicken Run [2000] [720p]
+INSERT 26 7.561102 Oceans.Twelve.2004.720p.HDDVD.x264-CDDHD
+INSERT 59 0.861088 Hancock    1080p
+INSERT 50 1.642323 Lord Of The Ring 1 - Fellowship of the Ring (ExtEd) [1080p]
+INSERT 47 3.335853 Before The Devil Knows, You're Dead   1080p
+INSERT 44 1.157266 Mr. & Mrs. Smith   720p
+INSERT 3 6.633770 Crash    1080p
+INSERT 12 6.718521 The.Da.Vinci.Code.2006.720p.BluRay.x264-BestHD
+REMOVE_ID 13
+REMOVE_ID 3
+REMOVE_ID 16
+REMOVE_ID 37
+PRINT_IN_ORDER actual/27-test.out
+INSERT 5 9.244233 contents.txt
+INSERT 60 0.208793 Alone in the dark   720p
+INSERT 4 6.324417 Death Sentence   1080p
+INSERT 55 4.402449 Sky.Captain.And.The.World.Of.Tomorrow[www.x1949x.com]    720p
+INSERT 39 1.188230 High school musical II 2007    720p
+INSERT 73 6.349810 911 Mysteries Demolition    720p
+INSERT 63 6.371398 Red Cliff    1080p
+INSERT 66 9.486634 X-Men Origin - Wolverine [2009] [1080p]
+INSERT 56 2.306750 Battlestar Galactica The Plan [720p]
+INSERT 31 9.123248 Click   720p
+REMOVE_ID 73
+REMOVE_ID 33
+REMOVE_ID 27
+REMOVE_ID 56
+REMOVE_ID 34
+PRINT_IN_ORDER actual/27-test.out

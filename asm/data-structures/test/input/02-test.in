@@ -1,0 +1,7 @@
+ERASE actual/02-test.out
+INSERT 0 3.483658 Chocolate 720p
+PRINT_IN_ORDER actual/02-test.out
+INSERT 3 0.955509 James Bond 12 - For Your Eyes Only [1981]
+INSERT 4 4.721663 007 Licence to Kill [1989] [BluRay] [720p] [DTS]
+REMOVE_ID 4
+PRINT_IN_ORDER actual/02-test.out

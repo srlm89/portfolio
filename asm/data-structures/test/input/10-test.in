@@ -1,0 +1,37 @@
+ERASE actual/10-test.out
+INSERT 4 2.293666 The Mist   720p
+PRINT_IN_ORDER actual/10-test.out
+INSERT 1 0.410737 Blood River 720P
+INSERT 9 2.134455 Lord Of The Ring 2 - The Two Towers (ExtEd) [1080p]
+REMOVE_ID 4
+PRINT_IN_ORDER actual/10-test.out
+INSERT 13 5.335794 Coyote Ugly 1080p
+INSERT 5 5.194256 High school musical II 2007    720p
+INSERT 3 7.570085 Eurotrip    720p
+REMOVE_ID 13
+PRINT_IN_ORDER actual/10-test.out
+INSERT 0 5.245068 Mr. & Mrs. Smith   720p
+INSERT 17 7.743641 Yes Man   720p
+INSERT 8 6.479523 Star Trek [2009] [1080p]
+INSERT 11 4.417848 Jerry Maguire    1080p
+REMOVE_ID 5
+REMOVE_ID 3
+PRINT_IN_ORDER actual/10-test.out
+INSERT 18 8.680416 Constantine HDDVD 1080p DTS x264
+INSERT 15 3.183986 Toy.Story.1995.720p.HDTV.x264-CtrlHD
+INSERT 2 0.986811 Fifty Dead Men Walking   1080p
+INSERT 12 9.946402 Armageddon [1998] [720p]
+INSERT 22 7.334403 Etenal Sunshine of the Spotless Mind [2004] [Bluray] [1080p] [DTS] [EN]
+REMOVE_ID 8
+REMOVE_ID 2
+PRINT_IN_ORDER actual/10-test.out
+INSERT 6 6.679403 James Bond 05 - You Only Live Twice [1967]
+INSERT 20 8.313057 The Brave One 720P
+INSERT 24 5.825974 The Proposal [2009] [720p]
+INSERT 10 8.920201 The Secret of Moonarce [720p]
+INSERT 27 2.625990 Armageddon [1998] [720p]
+INSERT 16 7.774825 X-Men 1    720p
+REMOVE_ID 9
+REMOVE_ID 17
+REMOVE_ID 16
+PRINT_IN_ORDER actual/10-test.out

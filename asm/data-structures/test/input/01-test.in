@@ -1,0 +1,3 @@
+ERASE actual/01-test.out
+INSERT 1 9.606566 Lord Of The Ring  - Return Of The King   720p
+PRINT_IN_ORDER actual/01-test.out

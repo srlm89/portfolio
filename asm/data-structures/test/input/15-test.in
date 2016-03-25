@@ -1,0 +1,48 @@
+ERASE actual/15-test.out
+INSERT 15 3.708941 X-Men Origin - Wolverine [2009] [1080p]
+PRINT_IN_ORDER actual/15-test.out
+INSERT 12 0.501063 Elite Squad 1080p
+INSERT 3 3.662596 The Proposal [2009] [720p]
+REMOVE_ID 15
+PRINT_IN_ORDER actual/15-test.out
+INSERT 2 5.590937 Tomb Raider Collection (1-2)    720p
+INSERT 1 4.495256 High school musical 2006    720p
+INSERT 6 9.019108 Madagascar 1 [2005] [1080p]
+REMOVE_ID 2
+PRINT_IN_ORDER actual/15-test.out
+INSERT 20 4.419825 Aeon Flux   720p
+INSERT 5 6.676770 Armageddon [1998] [720p]
+INSERT 13 1.957787 Monster Inc [2001] [720p]
+INSERT 0 4.980929 Kill Bill Vol 2 [2004]   720p
+REMOVE_ID 5
+REMOVE_ID 0
+PRINT_IN_ORDER actual/15-test.out
+INSERT 23 4.846262 300   720p
+INSERT 8 7.044785 Lord Of The Ring  - Return Of The King   720p
+INSERT 11 5.392327 Stardust   720p
+INSERT 24 7.713683 Golden Compass   720p
+INSERT 25 3.273892 Harold & Kumar   720p
+REMOVE_ID 25
+REMOVE_ID 23
+PRINT_IN_ORDER actual/15-test.out
+INSERT 26 0.929321 Good Night And Good Luck   720p
+INSERT 10 9.622203 Equilibrium 720p
+INSERT 4 4.252681 Red Dragon    1080p
+INSERT 28 3.947461 Eragon [2006] [720p]
+INSERT 34 8.383701 Street Kings   720p
+INSERT 30 8.926783 Bee Movie   720p
+REMOVE_ID 30
+REMOVE_ID 3
+REMOVE_ID 10
+PRINT_IN_ORDER actual/15-test.out
+INSERT 19 9.188822 The Hangover [720p]
+INSERT 7 0.486565 SAW I   720p
+INSERT 17 6.131385 Babylon A.D    720p
+INSERT 21 6.880899 Eragon [2006] [720p]
+INSERT 27 4.155322 Terminator 2 Judgement Day Directors Cut [1991]   1080p
+INSERT 40 0.603367 007 Licence to Kill [1989] [BluRay] [720p] [DTS]
+INSERT 42 3.126404 300   720p
+REMOVE_ID 40
+REMOVE_ID 4
+REMOVE_ID 24
+PRINT_IN_ORDER actual/15-test.out
