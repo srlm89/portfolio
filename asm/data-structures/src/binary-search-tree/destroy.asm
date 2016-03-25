@@ -30,13 +30,13 @@ destroy:
     push esi
     push ebx
     sub esp, 16
-    
+
     mov dword eax, [ebp+8]
     mov node, eax
 
     cmp dword eax, 0
     je eof
-    
+
     mov dword ecx, [eax + offs_name]
     mov dword name, ecx
 
@@ -45,7 +45,7 @@ destroy:
 
     mov dword ecx, [eax + offs_right]
     mov dword subtree_right, ecx
-    
+
     push dword subtree_left
     call destroy
     add esp, 4

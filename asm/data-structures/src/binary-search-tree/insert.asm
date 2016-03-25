@@ -74,7 +74,7 @@ insert:
         mov ecx, insertion
         mov dword [esi + ecx], eax          ; link parent with new node
         mov word cx, id
-        mov word  [eax + offs_id], cx       ; set new node id
+        mov word [eax + offs_id], cx        ; set new node id
         mov dword ecx, score
         mov dword [eax + offs_score], ecx   ; set new node score
         mov dword [eax + offs_left], 0      ; set left subtree to NULL

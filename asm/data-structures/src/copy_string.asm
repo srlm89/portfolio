@@ -12,6 +12,11 @@ copy_string:
 
     push ebp
     mov ebp, esp
+    push ebx
+    push ecx
+    push edx
+    push esi
+
     mov dword ebx, [ebp + 8]                ; ebx <- string address
     mov ecx, ebx
     xor edx, edx
@@ -44,6 +49,10 @@ copy_string:
         jmp copy_characters
 
     finished_copying:
+        pop esi
+        pop edx
+        pop ecx
+        pop ebx
         pop ebp
         ret
 

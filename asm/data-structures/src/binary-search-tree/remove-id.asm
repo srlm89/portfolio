@@ -47,7 +47,7 @@ remove_id:
         jg move_left
         jl move_right
         je remove
-    
+
     move_left:
         mov ebx, edi
         mov dword origin, offs_left
@@ -59,7 +59,7 @@ remove_id:
         mov dword origin, offs_right
         mov dword edi, [edi+offs_right]
         jmp binary_search
-    
+
     remove:
         mov eax, [edi + offs_left]          ; eax <- left subtree address
         mov ecx, [edi + offs_right]         ; ecx <- right subtree address
@@ -68,13 +68,13 @@ remove_id:
         cmp dword eax, 0
         je only_right_subtree
         jmp both_subtrees
-    
+
     no_right_subtree:
         cmp dword eax, 0
         mov dword substitute, 0
         je unlink_and_remove
         jmp only_left_subtree
-    
+
     unlink_and_remove:
         cmp dword ebx, 0
         je unlink_and_remove_root

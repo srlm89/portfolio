@@ -5,7 +5,7 @@
 ; |    ret address    |    [ebp+4]
 ; |       EBP         |    [ebp]
 
-extern fopen, fprintf, fclose    
+extern fopen, fprintf, fclose
 global print_in_order
 
 
