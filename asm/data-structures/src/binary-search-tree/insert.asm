@@ -38,14 +38,13 @@ insert:
     push ebx
     sub esp, 4
 
-    mov dword esi, root
-    mov dword edi, [esi]                    ; edi <- parent node address
     mov dword insertion, 0
-    cmp dword edi, 0
-    je new_node
-    xor ecx, ecx
+    mov dword esi, root                     ; esi <- previous node address
+    mov dword edi, [esi]                    ; edi <- current node address
 
     binary_search:
+        cmp dword edi, 0
+        je new_node
         mov word cx, [edi + offs_id]
         mov dword esi, edi
         cmp word cx, id
@@ -56,15 +55,11 @@ insert:
     move_left:
         mov dword insertion, offs_left
         mov dword edi, [edi + offs_left]
-        cmp dword edi, 0
-        je new_node
         jmp binary_search
 
     move_right:
         mov dword insertion, offs_right
         mov dword edi, [edi + offs_right]
-        cmp dword edi, 0
-        je new_node
         jmp binary_search
 
     new_node:
