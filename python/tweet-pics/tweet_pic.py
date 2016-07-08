@@ -8,9 +8,10 @@ import random
 import os
 
 def main(prompt = 'lisp> '):
-    Log.configure('./tweet_pic.log')
+    file_dir = os.path.realpath(os.path.dirname(__file__))
+    Log.configure(file_dir + '/tweet_pic.log')
     logger = Log.logger
-    credentials = './token/credentials.txt'
+    credentials = file_dir + '/token/credentials.txt'
     output = 'pic.png'
     try:
         logger.info('Instantiating API')

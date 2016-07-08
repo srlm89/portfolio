@@ -23,7 +23,7 @@ def maybeCompositeMetaclass():
 def createMetaclass(f):
 	class Meta(type):
 		def __init__(cls, name, bases, dct):
-			super(Meta, cls).__init__(name, bases, dict)
+			super(Meta, cls).__init__(name, bases, dct)
 			f(cls)
 	return Meta
 
@@ -59,7 +59,10 @@ class ByPi:
 	def __str__(self):
 		return '%s*pi' % str(self.m)
 
-	def value(self):
+	def factor(self):
+		return self.v
+
+	def value(self, x, y):
 		return self.v
 
 
@@ -91,16 +94,44 @@ class Sine:
 
 	def __init__(self, prob):
 		self.f = Function(prob)
+
+	def __str__(self):
+		return 'sin(%s)' % (str(self.f))
+
+	def value(self, x, y):
+		return math.sin(self.f.value(x, y))
+
+
+class Cos:
+
+	__metaclass__ = compositeMetaclass()
+
+	def __init__(self, prob):
+		self.f = Function(prob)
+
+	def __str__(self):
+		return 'cos(%s)' % (str(self.f))
+
+	def value(self, x, y):
+		return math.cos(self.f.value(x, y))
+
+
+class AdjustedSine:
+
+	__metaclass__ = compositeMetaclass()
+
+	def __init__(self, prob):
+		self.f = Function(prob)
 		self.m = ByPi()
 
 	def __str__(self):
 		return 'sin(%s * %s)' % (str(self.m), str(self.f))
 
 	def value(self, x, y):
-		return math.sin(self.m.value() * self.f.value(x, y))
+		return math.sin(self.m.factor() * self.f.value(x, y))
 
 
-class Cos:
+class AdjustedCos:
 
 	__metaclass__ = compositeMetaclass()
 
@@ -112,7 +143,37 @@ class Cos:
 		return 'cos(%s * %s)' % (str(self.m), str(self.f))
 
 	def value(self, x, y):
-		return math.cos(self.m.value() * self.f.value(x, y))
+		return math.cos(self.m.factor() * self.f.value(x, y))
+
+
+class SumSine:
+
+	__metaclass__ = compositeMetaclass()
+
+	def __init__(self, prob):
+		self.f1 = Function(prob)
+		self.f2 = Function(prob)
+
+	def __str__(self):
+		return 'sin(%s + %s)' % (str(self.f1), str(self.f2))
+
+	def value(self, x, y):
+		return math.sin(self.f1.value(x,y) + self.f2.value(x,y))
+
+
+class SumCos:
+
+	__metaclass__ = compositeMetaclass()
+
+	def __init__(self, prob):
+		self.f1 = Function(prob)
+		self.f2 = Function(prob)
+
+	def __str__(self):
+		return 'cos(%s + %s)' % (str(self.f1), str(self.f2))
+
+	def value(self, x, y):
+		return math.cos(self.f1.value(x,y) + self.f2.value(x,y))
 
 
 class Multiplied:
