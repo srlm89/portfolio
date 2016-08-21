@@ -1,14 +1,14 @@
-## Filters
-
-----
-
-### Geometric Filters
+## Geometric Filters
 
 #### Image Translation
+
+`../bin/imagepro pics/eleph.png gs/tran.png -t 30 -40`
 
 Grayscale   | Translation
 :----------:|:-----------:
 ![][orig_gs]|![][gs_tran]
+
+`../bin/imagepro pics/rango.png rgb/tran.png -t -60 35`
 
 RGB Image    | Translation
 :-----------:|:-----------:
@@ -16,9 +16,13 @@ RGB Image    | Translation
 
 #### Image Rotation
 
-Grayscal e  | Rotation
+`../bin/imagepro pics/eleph.png gs/rot.png -r 45 1`
+
+Grayscale   | Rotation
 :----------:|:-----------:
 ![][orig_gs]|![][gs_rot]
+
+`../bin/imagepro pics/rango.png rgb/rot.png -r 60 2`
 
 RGB Image    | Rotation
 :-----------:|:-----------:
@@ -26,17 +30,25 @@ RGB Image    | Rotation
 
 #### Image Shear
 
+`../bin/imagepro pics/eleph.png gs/shear_x.png -shear x 0.8 1`
+
 Grayscale   | Horizontal Shear
 :----------:|:---------------:
 ![][orig_gs]|![][gs_shear_x]
+
+`../bin/imagepro pics/eleph.png gs/shear_y.png -shear y -0.2 1`
 
 Grayscale   | Vertical Shear
 :----------:|:---------------:
 ![][orig_gs]|![][gs_shear_y]
 
+`../bin/imagepro pics/rango.png rgb/shear_x.png -shear x -0.5 2`
+
 RGB Image    | Horizontal Shear
 :-----------:|:---------------:
 ![][orig_rgb]|![][rgb_shear_x]
+
+`../bin/imagepro pics/rango.png rgb/shear_y.png -shear y 0.4 2`
 
 RGB Image    | Vertical Shear
 :-----------:|:--------------:
@@ -44,19 +56,24 @@ RGB Image    | Vertical Shear
 
 #### Image Scale
 
+`../bin/imagepro pics/eleph.png gs/scale.png -scale 1.5 0.75 1`
+
 Grayscale   | Scaling
 :----------:|:-----------:
 ![][orig_gs]|![][gs_scale]
+
+`../bin/imagepro pics/rango.png rgb/scale.png -scale 0.65 1.2 2`
 
 RGB Image    | Scaling
 :-----------:|:------------:
 ![][orig_rgb]|![][rgb_scale]
 
-----
 
-### Visual Filters
+## Visual Filters
 
 #### Grayscale (BT.601)
+
+`../bin/imagepro pics/rango.png rgb/gs.png -gs`
 
 RGB Image    | Grayscale
 :-----------:|:------------:
@@ -64,16 +81,64 @@ RGB Image    | Grayscale
 
 #### Grayscale (Mean)
 
+`../bin/imagepro pics/rango.png rgb/gs_mean.png -gsm`
+
 RGB Image    | Grayscale
 :-----------:|:--------------:
 ![][orig_rgb]|![][rgb_gs_mean]
 
+#### Adjust Brightness
+
+`../bin/imagepro pics/eleph.png gs/br.png -br 50`
+
+Grayscale   | Brightness
+:----------:|:-----------:
+![][orig_gs]|![][gs_br]
+
+`../bin/imagepro pics/rango.png rgb/br.png -br 60`
+
+RGB Image    | Brightness
+:-----------:|:------------:
+![][orig_rgb]|![][rgb_br]
+
+#### Adjust Contrast
+
+`../bin/imagepro pics/eleph.png gs/cont.png -cont 30`
+
+Grayscale   | Contrast
+:----------:|:-----------:
+![][orig_gs]|![][gs_cont]
+
+`../bin/imagepro pics/rango.png rgb/cont.png -cont 45`
+
+RGB Image    | Contrast
+:-----------:|:------------:
+![][orig_rgb]|![][rgb_cont]
+
+#### Gamma Correction
+
+`../bin/imagepro pics/eleph.png gs/gamma.png -g 3.0`
+
+Grayscale   | Gamma
+:----------:|:-----------:
+![][orig_gs]|![][gs_gamma]
+
+`../bin/imagepro pics/rango.png rgb/gamma.png -g 3.0`
+
+RGB Image    | Gamma
+:-----------:|:------------:
+![][orig_rgb]|![][rgb_gamma]
+
 #### Equalization
+
+`../bin/imagepro pics/eleph-uneq.png gs/eq.png -eq`
 
 Unequalized   | Equalized
 :------------:|:-----------:
 ![][uneq_gs]  |![][gs_eq]
 ![][hist_gs_1]|![][hist_gs_2]
+
+`../bin/imagepro pics/rango-uneq.png rgb/eq.png -eq`
 
 Unequalized    | Equalized
 :-------------:|:------------:
@@ -82,9 +147,13 @@ Unequalized    | Equalized
 
 #### Color Inversion
 
+`../bin/imagepro pics/eleph.png gs/inv.png -invert`
+
 Grayscale   | Inversion
 :----------:|:-----------:
 ![][orig_gs]|![][gs_inv]
+
+`../bin/imagepro pics/rango.png rgb/inv.png -invert`
 
 RGB Image    | Inversion
 :-----------:|:------------:
@@ -92,9 +161,13 @@ RGB Image    | Inversion
 
 #### Mean Blur
 
+`../bin/imagepro pics/eleph.png gs/mean.png -mean`
+
 Grayscale   | Mean Blur
 :----------:|:-----------:
 ![][orig_gs]|![][gs_mean]
+
+`../bin/imagepro pics/rango.png rgb/mean.png -mean`
 
 RGB Image    | Mean Blur
 :-----------:|:------------:
@@ -102,9 +175,13 @@ RGB Image    | Mean Blur
 
 #### Gaussian Blur
 
+`../bin/imagepro pics/eleph.png gs/gauss.png -gauss`
+
 Grayscale   | Gaussian Blur
 :----------:|:------------:
 ![][orig_gs]|![][gs_gauss]
+
+`../bin/imagepro pics/rango.png rgb/gauss.png -gauss`
 
 RGB Image    | Gaussian Blur
 :-----------:|:-------------:
@@ -112,9 +189,13 @@ RGB Image    | Gaussian Blur
 
 #### Noise Removal (Median)
 
+`../bin/imagepro pics/eleph-noise.png gs/noise.png -noise`
+
 Noise       | Noise Removal
 :----------:|:-----------:
 ![][dust_gs]|![][gs_noise]
+
+`../bin/imagepro pics/rango-noise.png rgb/noise.png -noise`
 
 Noise        | Noise Removal
 :-----------:|:------------:
@@ -122,9 +203,13 @@ Noise        | Noise Removal
 
 #### Sharpen Image (Laplace)
 
+`../bin/imagepro pics/eleph.png gs/laplace.png -laplace`
+
 Grayscale   | Laplace
 :----------:|:-----------:
 ![][orig_gs]|![][gs_laplace]
+
+`../bin/imagepro pics/rango.png rgb/laplace.png -laplace`
 
 RGB Image    | Laplace
 :-----------:|:------------:
@@ -132,9 +217,13 @@ RGB Image    | Laplace
 
 #### Emboss
 
+`../bin/imagepro pics/eleph.png gs/emboss.png -emboss`
+
 Grayscale   | Emboss
 :----------:|:-----------:
 ![][orig_gs]|![][gs_emboss]
+
+`../bin/imagepro pics/rango.png rgb/emboss.png -emboss`
 
 RGB Image    | Emboss
 :-----------:|:------------:
@@ -142,9 +231,13 @@ RGB Image    | Emboss
 
 #### Glow
 
+`../bin/imagepro pics/eleph.png gs/glow.png -glow`
+
 Grayscale   | Glow
 :----------:|:-----------:
 ![][orig_gs]|![][gs_glow]
+
+`../bin/imagepro pics/rango.png rgb/glow.png -glow`
 
 RGB Image    | Glow
 :-----------:|:------------:
@@ -152,9 +245,13 @@ RGB Image    | Glow
 
 #### Add RGB
 
+`../bin/imagepro pics/eleph.png gs/add_rgb.png -rgb+ -10 0 10`
+
 Grayscale   | Add RGB
 :----------:|:-------------:
 ![][orig_gs]|![][gs_add_rgb]
+
+`../bin/imagepro pics/rango.png rgb/add_rgb.png -rgb+ -40 0 40`
 
 RGB Image    | Add RGB
 :-----------:|:--------------:
@@ -162,9 +259,13 @@ RGB Image    | Add RGB
 
 #### Multiply RGB
 
+`../bin/imagepro pics/eleph.png gs/mul_rgb.png -rgb* 0.8 1.0 1.2`
+
 Grayscale   | Multiply RGB
 :----------:|:-------------:
 ![][orig_gs]|![][gs_mul_rgb]
+
+`../bin/imagepro pics/rango.png rgb/mul_rgb.png -rgb* 0.6 1.0 1.4`
 
 RGB Image    | Multiply RGB
 :-----------:|:--------------:
@@ -172,49 +273,27 @@ RGB Image    | Multiply RGB
 
 #### Bluetone
 
+`../bin/imagepro pics/eleph.png gs/blue.png -blue`
+
 Grayscale   | Bluetone
 :----------:|:-----------:
 ![][orig_gs]|![][gs_blue]
+
+`../bin/imagepro pics/rango.png rgb/blue.png -blue`
 
 RGB Image    | Bluetone
 :-----------:|:------------:
 ![][orig_rgb]|![][rgb_blue]
 
-#### Adjust Brightness
-
-Grayscale   | Brightness
-:----------:|:-----------:
-![][orig_gs]|![][gs_br]
-
-RGB Image    | Brightness
-:-----------:|:------------:
-![][orig_rgb]|![][rgb_br]
-
-#### Adjust Contrast
-
-Grayscale   | Contrast
-:----------:|:-----------:
-![][orig_gs]|![][gs_cont]
-
-RGB Image    | Contrast
-:-----------:|:------------:
-![][orig_rgb]|![][rgb_cont]
-
-#### Gamma Correction
-
-Grayscale   | Gamma
-:----------:|:-----------:
-![][orig_gs]|![][gs_gamma]
-
-RGB Image    | Gamma
-:-----------:|:------------:
-![][orig_rgb]|![][rgb_gamma]
-
 #### Floyd Steinberg Dithering
+
+`../bin/imagepro pics/eleph.png gs/floyd.png -floyd`
 
 Grayscale   | Dithering
 :----------:|:-----------:
 ![][orig_gs]|![][gs_floyd]
+
+`../bin/imagepro pics/rango.png rgb/floyd.png -floyd`
 
 RGB Image    | Dithering
 :-----------:|:------------:
@@ -222,9 +301,13 @@ RGB Image    | Dithering
 
 #### Pixelize
 
+`../bin/imagepro pics/eleph.png gs/pix.png -pix 10 15`
+
 Grayscale   | Pixelize
 :----------:|:-----------:
 ![][orig_gs]|![][gs_pix]
+
+`../bin/imagepro pics/rango.png rgb/pix.png -pix 15 25`
 
 RGB Image    | Pixelize
 :-----------:|:------------:
@@ -232,31 +315,33 @@ RGB Image    | Pixelize
 
 #### Pixel Spreading
 
+`../bin/imagepro pics/eleph.png gs/spread.png -spr 10 10 3919`
+
 Grayscale   | Spread
 :----------:|:-----------:
 ![][orig_gs]|![][gs_spread]
+
+`../bin/imagepro pics/rango.png rgb/spread.png -spr 15 15 3919`
 
 RGB Image    | Spread
 :-----------:|:------------:
 ![][orig_rgb]|![][rgb_spread]
 
-----
 
-### Chained Filter Application
+## Chained Filter Application
 
-`../bin/imagepro pics/rango.png rgb/chain.png -cont -30 -glow -floyd -gauss`
+`../bin/imagepro pics/eleph.png gs/chain.png -g 0.5 -rgb* 1.5 1.5 1.5 -gs`
 
 Grayscale   | Chained
 :----------:|:-----------:
 ![][orig_gs]|![][gs_chain]
 
-`../bin/imagepro pics/eleph.png gs/chain.png -g 0.5 -rgb* 1.5 1.5 1.5 -gs`
+`../bin/imagepro pics/rango.png rgb/chain.png -cont -30 -glow -floyd -gauss`
 
 RGB Image    | Chained
 :-----------:|:------------:
 ![][orig_rgb]|![][rgb_chain]
 
-----
 
 ## Dependencies
 
