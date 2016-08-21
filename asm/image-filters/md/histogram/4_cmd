@@ -1,0 +1,4 @@
+../tests/histogram.sh pics/eleph-uneq.png histogram/gs_uneq.png
+../tests/histogram.sh pics/rango-uneq.png histogram/rgb_uneq.png
+../tests/histogram.sh gs/eq.png histogram/gs_eq.png
+../tests/histogram.sh rgb/eq.png histogram/rgb_eq.png

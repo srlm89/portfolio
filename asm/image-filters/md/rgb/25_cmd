@@ -1,0 +1,25 @@
+../bin/imagepro pics/rango.png rgb/add_rgb.png -rgb+ -40 0 40
+../bin/imagepro pics/rango.png rgb/blue.png -blue
+../bin/imagepro pics/rango.png rgb/br.png -br 60
+../bin/imagepro pics/rango.png rgb/cont.png -cont 45
+../bin/imagepro pics/rango.png rgb/emboss.png -emboss
+../bin/imagepro pics/rango-uneq.png rgb/eq.png -eq
+../bin/imagepro pics/rango.png rgb/floyd.png -floyd
+../bin/imagepro pics/rango.png rgb/gamma.png -g 3.0
+../bin/imagepro pics/rango.png rgb/gauss.png -gauss
+../bin/imagepro pics/rango.png rgb/glow.png -glow
+../bin/imagepro pics/rango.png rgb/gs.png -gs
+../bin/imagepro pics/rango.png rgb/gs_mean.png -gsm
+../bin/imagepro pics/rango.png rgb/inv.png -invert
+../bin/imagepro pics/rango.png rgb/laplace.png -laplace
+../bin/imagepro pics/rango.png rgb/mean.png -mean
+../bin/imagepro pics/rango-noise.png rgb/noise.png -noise
+../bin/imagepro pics/rango.png rgb/mul_rgb.png -rgb* 0.6 1.0 1.4
+../bin/imagepro pics/rango.png rgb/pix.png -pix 15 25
+../bin/imagepro pics/rango.png rgb/rot.png -r 60 2
+../bin/imagepro pics/rango.png rgb/scale.png -scale 0.65 1.2 2
+../bin/imagepro pics/rango.png rgb/shear_x.png -shear x -0.5 2
+../bin/imagepro pics/rango.png rgb/shear_y.png -shear y 0.4 2
+../bin/imagepro pics/rango.png rgb/spread.png -spr 15 15 3919
+../bin/imagepro pics/rango.png rgb/tran.png -t -60 35
+../bin/imagepro pics/rango.png rgb/chain.png -cont -30 -glow -floyd -gauss

@@ -1,0 +1,23 @@
+../bin/imagepro pics/eleph.png gs/add_rgb.png -rgb+ -10 0 10
+../bin/imagepro pics/eleph.png gs/blue.png -blue
+../bin/imagepro pics/eleph.png gs/br.png -br 50
+../bin/imagepro pics/eleph.png gs/cont.png -cont 30
+../bin/imagepro pics/eleph.png gs/emboss.png -emboss
+../bin/imagepro pics/eleph-uneq.png gs/eq.png -eq
+../bin/imagepro pics/eleph.png gs/floyd.png -floyd
+../bin/imagepro pics/eleph.png gs/gamma.png -g 3.0
+../bin/imagepro pics/eleph.png gs/gauss.png -gauss
+../bin/imagepro pics/eleph.png gs/glow.png -glow
+../bin/imagepro pics/eleph.png gs/inv.png -invert
+../bin/imagepro pics/eleph.png gs/laplace.png -laplace
+../bin/imagepro pics/eleph.png gs/mean.png -mean
+../bin/imagepro pics/eleph-noise.png gs/noise.png -noise
+../bin/imagepro pics/eleph.png gs/mul_rgb.png -rgb* 0.8 1.0 1.2
+../bin/imagepro pics/eleph.png gs/pix.png -pix 10 15
+../bin/imagepro pics/eleph.png gs/rot.png -r 45 1
+../bin/imagepro pics/eleph.png gs/scale.png -scale 1.5 0.75 1
+../bin/imagepro pics/eleph.png gs/shear_x.png -shear x 0.8 1
+../bin/imagepro pics/eleph.png gs/shear_y.png -shear y -0.2 1
+../bin/imagepro pics/eleph.png gs/spread.png -spr 10 10 3919
+../bin/imagepro pics/eleph.png gs/tran.png -t 30 -40
+../bin/imagepro pics/eleph.png gs/chain.png -g 0.5 -rgb* 1.5 1.5 1.5 -gs
