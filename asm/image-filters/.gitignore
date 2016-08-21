@@ -1,0 +1,6 @@
+tests/pics/test-in
+tests/pics/test-out
+tests/tests.log
+tests/valgrind.log
+bin/
+bibliografia/
