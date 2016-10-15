@@ -17,7 +17,7 @@ void destroy(node* structure);
 void print_in_order(node* structure, char *file);
 ```
 
-In the case of the BST, `poiner1` and `pointer2` are the left and right subtrees of the node. For the DLL, `pointer1` and `pointer2` are the previous and next nodes.
+In the case of the BST, `pointer1` and `pointer2` are the left and right subtrees of the node. For the DLL, `pointer1` and `pointer2` are the previous and next nodes.
 
 Each node contains an `id`, a `name` and a `score` (in addition to its pointers), and it represents a movie rating. The goal is to fill the data structure with ratings extracted from a movie fan club database. The structure should be order by `id`.
 
