@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+
+    deployable_docker_app:
+        build: ./docker/app
+        image: deployable_docker_app:latest
+        container_name: deployable_docker_app
+        depends_on:
+            - deployable_docker_app_db
+        links:
+            - deployable_docker_app_db
+
+    deployable_docker_app_db:
+        image: postgres:9.5
+        container_name: deployable_docker_app_db
+        environment:
+            - POSTGRES_USER=dwight
+            - POSTGRES_PASSWORD=lasagne
+        volumes:
+            - ./docker/volumes/postgres/data:/var/lib/postgresql/data
+

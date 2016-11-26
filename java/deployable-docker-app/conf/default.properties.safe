@@ -1,0 +1,5 @@
+_db.jdbc.user=dwight
+_db.jdbc.pass=lasagne
+_db.jdbc.dialect=POSTGRES_9_5
+_db.jdbc.local.url=jdbc:postgresql://localhost:49153/
+_db.jdbc.docker.url=jdbc:postgresql://deployable_docker_app_db:5432/

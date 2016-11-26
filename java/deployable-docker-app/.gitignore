@@ -1,0 +1,5 @@
+target/
+deploy/docker/volumes/postgres/data
+deploy/docker/app/deployable-docker-app.jar
+deploy/0
+
