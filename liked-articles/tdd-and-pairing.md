@@ -8,7 +8,7 @@ If you want more production, look first to raising your internal quality.
 
 3. Because typing is not now and never has been the bottleneck in writing code.
 
-#### 1. Internal vs. External Quality
+### 1. Internal vs. External Quality
 
 External quality is about the “saleability” of the software you’re making.  If there were a number to represent how many features you have, or whether those features are correct across the entire range of possible inputs, that number would be the external quality.  External quality can be traded for time-to-market. It’s not traded for productivity per se, but it’s a perfectly delightful way of hitting your ship-date.
 

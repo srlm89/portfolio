@@ -2,7 +2,7 @@
 
 Brevity is the highest virtue. Here are the basic guidelines that are working for me and, so, I propose for all of the world to adopt immediately:
 
-#### No signoff
+### No signoff
 
 Best? Cheers? Thanks? None of the above.
 
