@@ -1,0 +1,31 @@
+{
+  "name": "dockql",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nyc": "./node_modules/nyc/bin/nyc.js",
+    "lint": "eslint src test",
+    "test": "npm run lint && nyc mocha --recursive"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~3.5.0",
+    "dependable": "~0.2.5",
+    "dockerode": "~2.4.3",
+    "lodash": "~4.17.4"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "chai-as-promised": "~6.0.0",
+    "chai-like": "~0.2.10",
+    "eslint": "~3.19.0",
+    "eslint-config-airbnb-base": "~11.2.0",
+    "eslint-plugin-import": "~2.2.0",
+    "mocha": "~3.4.1",
+    "nyc": "~10.3.2",
+    "sinon": "~1.17.6",
+    "sinon-as-promised": "~4.0.2",
+    "sinon-chai": "~2.8.0"
+  }
+}

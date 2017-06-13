@@ -1,0 +1,15 @@
+{
+  "check-coverage": true,
+  "include": [
+    "src/**/*.js"
+  ],
+  "exclude": [],
+  "reporter": [
+    "lcov",
+    "text",
+    "text-summary"
+  ],
+  "cache": true,
+  "all": true,
+  "report-dir": "./coverage/lcov"
+}
