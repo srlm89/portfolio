@@ -1,0 +1,29 @@
+{
+  "name": "handy-units",
+  "version": "0.0.1",
+  "description": "Right-click browser add-on which automatically shows unit conversions",
+  "scripts": {
+    "mocha": "mocha --recursive",
+    "lint": "eslint src test",
+    "test": "npm run lint && npm run mocha"
+  },
+  "author": "srlm89",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srlm89/portfolio"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "chai-as-promised": "~6.0.0",
+    "chai-like": "~0.2.10",
+    "eslint": "~3.19.0",
+    "eslint-config-airbnb-base": "~11.2.0",
+    "eslint-plugin-import": "~2.2.0",
+    "lodash": "~4.17.4",
+    "mocha": "~3.4.1",
+    "sinon": "~1.17.6",
+    "sinon-as-promised": "~4.0.2",
+    "sinon-chai": "~2.8.0"
+  }
+}
