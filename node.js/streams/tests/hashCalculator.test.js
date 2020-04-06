@@ -5,8 +5,10 @@ const { getHash, getHashSync, getHashReadable } = require('./hashCalculator');
 const filePath = path.join(__dirname, '../resources/file.512.mb');
 
 // SYNC
+
 console.log('[Sync] MD5 hash is', getHashSync(filePath, 'md5'));
 console.log('[Sync] SHA1 hash is', getHashSync(filePath, 'sha1'));
+
 
 // ASYNC
 

@@ -52,7 +52,7 @@
   - What is going on?
     - The `duplexStream1` receives a chunk of data and forwards it almost immediately.
     - The `duplexStream2` receives a chunk of data but cannot forward it until `writableStream` is ready.
-    - The `writableStream` slows down the stream chain, but because the `readableStream` is not awar of it, chunks of data are accumulated in between.
+    - The `writableStream` slows down the stream chain, but because the `readableStream` is not aware of it, chunks of data are accumulated in between.
   - *Note:* I have only seen this problem when using `stream.PassThrough`. If the same example was implemented with `stream.Transform` all streams would coordinate themselves appropriately.
 
 ![](./results/charts/streamChainWithDelay.png "Chained streams (with delay)")
