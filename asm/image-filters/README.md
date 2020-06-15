@@ -6,13 +6,13 @@
 
 Grayscale   | Translation
 :----------:|:-----------:
-![][orig_gs]|![][gs_tran]
+![](md/gs/original.png)|![](md/gs/tran.png)
 
 `../bin/imagepro pics/rango.png rgb/tran.png -t -60 35`
 
 RGB Image    | Translation
 :-----------:|:-----------:
-![][orig_rgb]|![][rgb_tran]
+![](md/rgb/original.png)|![](md/rgb/tran.png)
 
 #### Image Rotation
 
@@ -20,13 +20,13 @@ RGB Image    | Translation
 
 Grayscale   | Rotation
 :----------:|:-----------:
-![][orig_gs]|![][gs_rot]
+![](md/gs/original.png)|![](md/gs/rot.png)
 
 `../bin/imagepro pics/rango.png rgb/rot.png -r 60 2`
 
 RGB Image    | Rotation
 :-----------:|:-----------:
-![][orig_rgb]|![][rgb_rot]
+![](md/rgb/original.png)|![](md/rgb/rot.png)
 
 #### Image Shear
 
@@ -34,25 +34,25 @@ RGB Image    | Rotation
 
 Grayscale   | Horizontal Shear
 :----------:|:---------------:
-![][orig_gs]|![][gs_shear_x]
+![](md/gs/original.png)|![](md/gs/shear_x.png)
 
 `../bin/imagepro pics/eleph.png gs/shear_y.png -shear y -0.2 1`
 
 Grayscale   | Vertical Shear
 :----------:|:---------------:
-![][orig_gs]|![][gs_shear_y]
+![](md/gs/original.png)|![](md/gs/shear_y.png)
 
 `../bin/imagepro pics/rango.png rgb/shear_x.png -shear x -0.5 2`
 
 RGB Image    | Horizontal Shear
 :-----------:|:---------------:
-![][orig_rgb]|![][rgb_shear_x]
+![](md/rgb/original.png)|![](md/rgb/shear_x.png)
 
 `../bin/imagepro pics/rango.png rgb/shear_y.png -shear y 0.4 2`
 
 RGB Image    | Vertical Shear
 :-----------:|:--------------:
-![][orig_rgb]|![][rgb_shear_y]
+![](md/rgb/original.png)|![](md/rgb/shear_y.png)
 
 #### Image Scale
 
@@ -60,13 +60,13 @@ RGB Image    | Vertical Shear
 
 Grayscale   | Scaling
 :----------:|:-----------:
-![][orig_gs]|![][gs_scale]
+![](md/gs/original.png)|![](md/gs/scale.png)
 
 `../bin/imagepro pics/rango.png rgb/scale.png -scale 0.65 1.2 2`
 
 RGB Image    | Scaling
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_scale]
+![](md/rgb/original.png)|![](md/rgb/scale.png)
 
 
 ## Visual Filters
@@ -77,7 +77,7 @@ RGB Image    | Scaling
 
 RGB Image    | Grayscale
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_gs]
+![](md/rgb/original.png)|![](md/rgb/gs.png)
 
 #### Grayscale (Mean)
 
@@ -85,7 +85,7 @@ RGB Image    | Grayscale
 
 RGB Image    | Grayscale
 :-----------:|:--------------:
-![][orig_rgb]|![][rgb_gs_mean]
+![](md/rgb/original.png)|![](md/rgb/gs_mean.png)
 
 #### Adjust Brightness
 
@@ -93,13 +93,13 @@ RGB Image    | Grayscale
 
 Grayscale   | Brightness
 :----------:|:-----------:
-![][orig_gs]|![][gs_br]
+![](md/gs/original.png)|![](md/gs/br.png)
 
 `../bin/imagepro pics/rango.png rgb/br.png -br 60`
 
 RGB Image    | Brightness
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_br]
+![](md/rgb/original.png)|![](md/rgb/br.png)
 
 #### Adjust Contrast
 
@@ -107,13 +107,13 @@ RGB Image    | Brightness
 
 Grayscale   | Contrast
 :----------:|:-----------:
-![][orig_gs]|![][gs_cont]
+![](md/gs/original.png)|![](md/gs/cont.png)
 
 `../bin/imagepro pics/rango.png rgb/cont.png -cont 45`
 
 RGB Image    | Contrast
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_cont]
+![](md/rgb/original.png)|![](md/rgb/cont.png)
 
 #### Gamma Correction
 
@@ -121,13 +121,13 @@ RGB Image    | Contrast
 
 Grayscale   | Gamma
 :----------:|:-----------:
-![][orig_gs]|![][gs_gamma]
+![](md/gs/original.png)|![](md/gs/gamma.png)
 
 `../bin/imagepro pics/rango.png rgb/gamma.png -g 3.0`
 
 RGB Image    | Gamma
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_gamma]
+![](md/rgb/original.png)|![](md/rgb/gamma.png)
 
 #### Equalization
 
@@ -135,15 +135,15 @@ RGB Image    | Gamma
 
 Unequalized   | Equalized
 :------------:|:-----------:
-![][uneq_gs]  |![][gs_eq]
-![][hist_gs_1]|![][hist_gs_2]
+![](md/gs/eq-in.png)  |![](md/gs/eq.png)
+![](md/histogram/gs_uneq.png)|![](md/histogram/gs_eq.png)
 
 `../bin/imagepro pics/rango-uneq.png rgb/eq.png -eq`
 
 Unequalized    | Equalized
 :-------------:|:------------:
-![][uneq_rgb]  |![][rgb_eq]
-![][hist_rgb_1]|![][hist_rgb_2]
+![](md/rgb/eq-in.png)  |![](md/rgb/eq.png)
+![](md/histogram/rgb_uneq.png)|![](md/histogram/rgb_eq.png)
 
 #### Color Inversion
 
@@ -151,13 +151,13 @@ Unequalized    | Equalized
 
 Grayscale   | Inversion
 :----------:|:-----------:
-![][orig_gs]|![][gs_inv]
+![](md/gs/original.png)|![](md/gs/inv.png)
 
 `../bin/imagepro pics/rango.png rgb/inv.png -invert`
 
 RGB Image    | Inversion
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_inv]
+![](md/rgb/original.png)|![](md/rgb/inv.png)
 
 #### Mean Blur
 
@@ -165,13 +165,13 @@ RGB Image    | Inversion
 
 Grayscale   | Mean Blur
 :----------:|:-----------:
-![][orig_gs]|![][gs_mean]
+![](md/gs/original.png)|![](md/gs/mean.png)
 
 `../bin/imagepro pics/rango.png rgb/mean.png -mean`
 
 RGB Image    | Mean Blur
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_mean]
+![](md/rgb/original.png)|![](md/rgb/mean.png)
 
 #### Gaussian Blur
 
@@ -179,13 +179,13 @@ RGB Image    | Mean Blur
 
 Grayscale   | Gaussian Blur
 :----------:|:------------:
-![][orig_gs]|![][gs_gauss]
+![](md/gs/original.png)|![](md/gs/gauss.png)
 
 `../bin/imagepro pics/rango.png rgb/gauss.png -gauss`
 
 RGB Image    | Gaussian Blur
 :-----------:|:-------------:
-![][orig_rgb]|![][rgb_gauss]
+![](md/rgb/original.png)|![](md/rgb/gauss.png)
 
 #### Noise Removal (Median)
 
@@ -193,13 +193,13 @@ RGB Image    | Gaussian Blur
 
 Noise       | Noise Removal
 :----------:|:-----------:
-![][dust_gs]|![][gs_noise]
+![](md/gs/noise-in.png)|![](md/gs/noise.png)
 
 `../bin/imagepro pics/rango-noise.png rgb/noise.png -noise`
 
 Noise        | Noise Removal
 :-----------:|:------------:
-![][dust_rgb]|![][rgb_noise]
+![](md/rgb/noise-in.png)|![](md/rgb/noise.png)
 
 #### Sharpen Image (Laplace)
 
@@ -207,13 +207,13 @@ Noise        | Noise Removal
 
 Grayscale   | Laplace
 :----------:|:-----------:
-![][orig_gs]|![][gs_laplace]
+![](md/gs/original.png)|![](md/gs/laplace.png)
 
 `../bin/imagepro pics/rango.png rgb/laplace.png -laplace`
 
 RGB Image    | Laplace
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_laplace]
+![](md/rgb/original.png)|![](md/rgb/laplace.png)
 
 #### Emboss
 
@@ -221,13 +221,13 @@ RGB Image    | Laplace
 
 Grayscale   | Emboss
 :----------:|:-----------:
-![][orig_gs]|![][gs_emboss]
+![](md/gs/original.png)|![](md/gs/emboss.png)
 
 `../bin/imagepro pics/rango.png rgb/emboss.png -emboss`
 
 RGB Image    | Emboss
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_emboss]
+![](md/rgb/original.png)|![](md/rgb/emboss.png)
 
 #### Glow
 
@@ -235,13 +235,13 @@ RGB Image    | Emboss
 
 Grayscale   | Glow
 :----------:|:-----------:
-![][orig_gs]|![][gs_glow]
+![](md/gs/original.png)|![](md/gs/glow.png)
 
 `../bin/imagepro pics/rango.png rgb/glow.png -glow`
 
 RGB Image    | Glow
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_glow]
+![](md/rgb/original.png)|![](md/rgb/glow.png)
 
 #### Add RGB
 
@@ -249,13 +249,13 @@ RGB Image    | Glow
 
 Grayscale   | Add RGB
 :----------:|:-------------:
-![][orig_gs]|![][gs_add_rgb]
+![](md/gs/original.png)|![](md/gs/add_rgb.png)
 
 `../bin/imagepro pics/rango.png rgb/add_rgb.png -rgb+ -40 0 40`
 
 RGB Image    | Add RGB
 :-----------:|:--------------:
-![][orig_rgb]|![][rgb_add_rgb]
+![](md/rgb/original.png)|![](md/rgb/add_rgb.png)
 
 #### Multiply RGB
 
@@ -263,13 +263,13 @@ RGB Image    | Add RGB
 
 Grayscale   | Multiply RGB
 :----------:|:-------------:
-![][orig_gs]|![][gs_mul_rgb]
+![](md/gs/original.png)|![](md/gs/mul_rgb.png)
 
 `../bin/imagepro pics/rango.png rgb/mul_rgb.png -rgb* 0.6 1.0 1.4`
 
 RGB Image    | Multiply RGB
 :-----------:|:--------------:
-![][orig_rgb]|![][rgb_mul_rgb]
+![](md/rgb/original.png)|![](md/rgb/mul_rgb.png)
 
 #### Bluetone
 
@@ -277,13 +277,13 @@ RGB Image    | Multiply RGB
 
 Grayscale   | Bluetone
 :----------:|:-----------:
-![][orig_gs]|![][gs_blue]
+![](md/gs/original.png)|![](md/gs/blue.png)
 
 `../bin/imagepro pics/rango.png rgb/blue.png -blue`
 
 RGB Image    | Bluetone
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_blue]
+![](md/rgb/original.png)|![](md/rgb/blue.png)
 
 #### Floyd Steinberg Dithering
 
@@ -291,13 +291,13 @@ RGB Image    | Bluetone
 
 Grayscale   | Dithering
 :----------:|:-----------:
-![][orig_gs]|![][gs_floyd]
+![](md/gs/original.png)|![](md/gs/floyd.png)
 
 `../bin/imagepro pics/rango.png rgb/floyd.png -floyd`
 
 RGB Image    | Dithering
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_floyd]
+![](md/rgb/original.png)|![](md/rgb/floyd.png)
 
 #### Pixelize
 
@@ -305,13 +305,13 @@ RGB Image    | Dithering
 
 Grayscale   | Pixelize
 :----------:|:-----------:
-![][orig_gs]|![][gs_pix]
+![](md/gs/original.png)|![](md/gs/pix.png)
 
 `../bin/imagepro pics/rango.png rgb/pix.png -pix 15 25`
 
 RGB Image    | Pixelize
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_pix]
+![](md/rgb/original.png)|![](md/rgb/pix.png)
 
 #### Pixel Spreading
 
@@ -319,13 +319,13 @@ RGB Image    | Pixelize
 
 Grayscale   | Spread
 :----------:|:-----------:
-![][orig_gs]|![][gs_spread]
+![](md/gs/original.png)|![](md/gs/spread.png)
 
 `../bin/imagepro pics/rango.png rgb/spread.png -spr 15 15 3919`
 
 RGB Image    | Spread
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_spread]
+![](md/rgb/original.png)|![](md/rgb/spread.png)
 
 
 ## Chained Filter Application
@@ -334,13 +334,13 @@ RGB Image    | Spread
 
 Grayscale   | Chained
 :----------:|:-----------:
-![][orig_gs]|![][gs_chain]
+![](md/gs/original.png)|![](md/gs/chain.png)
 
 `../bin/imagepro pics/rango.png rgb/chain.png -cont -30 -glow -floyd -gauss`
 
 RGB Image    | Chained
 :-----------:|:------------:
-![][orig_rgb]|![][rgb_chain]
+![](md/rgb/original.png)|![](md/rgb/chain.png)
 
 
 ## Dependencies
@@ -385,67 +385,3 @@ $ sudo apt-get install libcv-dev libhighgui-dev libcvaux-dev libopencv-dev
 - [Lode's Computer Graphics Tutorial.](http://lodev.org/cgtutor/filtering.html)
 
 - [Floyd-Steinberg Dithering. Stephen M. Omohundro.](omohundro.files.wordpress.com/2009/03/omohundro90_floyd_steinberg_dithering.pdf)
-
-
-[gs_add_rgb]: md/gs/add_rgb.png "Add RGB (grayscale)"
-[gs_blue]: md/gs/blue.png "Bluetone (grayscale)
-[gs_br]: md/gs/br.png "Brightness (grayscale)"
-[gs_cont]: md/gs/cont.png "Contrast (grayscale)"
-[gs_emboss]: md/gs/emboss.png "Emboss (grayscale)"
-[gs_eq]: md/gs/eq.png "Equalization (grayscale)"
-[gs_floyd]: md/gs/floyd.png "Floyd Steinberg Dithering (grayscale)"
-[gs_gamma]: md/gs/gamma.png "Gamma Correction (grayscale)"
-[gs_gauss]: md/gs/gauss.png "Gaussian Blur (grayscale)"
-[gs_glow]: md/gs/glow.png "Image Glow (grayscale)"
-[gs_inv]: md/gs/inv.png "Color Inverstion (grayscale)"
-[gs_laplace]: md/gs/laplace.png "Laplace Sharpening (grayscale)"
-[gs_mean]: md/gs/mean.png "Mean Blur (grayscale)"
-[gs_noise]: md/gs/noise.png "Median Noise Removal (grayscale)"
-[gs_mul_rgb]: md/gs/mul_rgb.png "Multiply RGB (grayscale)"
-[gs_pix]: md/gs/pix.png "Pixelize (grayscale)"
-[gs_rot]: md/gs/rot.png "Rotation (grayscale)"
-[gs_scale]: md/gs/scale.png "Scaling (grayscale)"
-[gs_shear_x]: md/gs/shear_x.png "Horizontal Shear (grayscale)"
-[gs_shear_y]: md/gs/shear_y.png "Vertical Shear (grayscale)"
-[gs_spread]: md/gs/spread.png "Pixel Spreading (grayscale)"
-[gs_tran]: md/gs/tran.png "Translation (grayscale)"
-[gs_chain]: md/gs/chain.png "Chained Filter Application (grayscale)"
-[uneq_gs]: md/gs/eq-in.png "Unequalized (grayscale)"
-[orig_gs]: md/gs/original.png "Original (grayscale)"
-[dust_gs]: md/gs/noise-in.png "Image with noise (grayscale)"
-
-[rgb_add_rgb]: md/rgb/add_rgb.png "Add RGB (color image)"
-[rgb_blue]: md/rgb/blue.png "Bluetone (grayscale)
-[rgb_br]: md/rgb/br.png "Brightness (color image)"
-[rgb_cont]: md/rgb/cont.png "Contrast (color image)"
-[rgb_emboss]: md/rgb/emboss.png "Emboss (color image)"
-[rgb_eq]: md/rgb/eq.png "Equalization (color image)"
-[rgb_floyd]: md/rgb/floyd.png "Floyd Steinberg Dithering (color image)"
-[rgb_gamma]: md/rgb/gamma.png "Gamma Correction (color image)"
-[rgb_gauss]: md/rgb/gauss.png "Gaussian Blur (color image)"
-[rgb_glow]: md/rgb/glow.png "Image Glow (color image)"
-[rgb_gs]: md/rgb/gs.png "Grayscale conversion (BT.601)"
-[rgb_gs_mean]: md/rgb/gs_mean.png "Grayscale conversion (mean)"
-[rgb_inv]: md/rgb/inv.png "Color Inverstion (color image)"
-[rgb_laplace]: md/rgb/laplace.png "Laplace Sharpening (color image)"
-[rgb_mean]: md/rgb/mean.png "Mean Blur (color image)"
-[rgb_noise]: md/rgb/noise.png "Median Noise Removal (color image)"
-[rgb_mul_rgb]: md/rgb/mul_rgb.png "Multiply RGB (color image)"
-[rgb_pix]: md/rgb/pix.png "Pixelize (color image)"
-[rgb_rot]: md/rgb/rot.png "Rotation (color image)"
-[rgb_scale]: md/rgb/scale.png "Scaling (color image)"
-[rgb_shear_x]: md/rgb/shear_x.png "Horizontal Shear (color image)"
-[rgb_shear_y]: md/rgb/shear_y.png "Vertical Shear (color image)"
-[rgb_spread]: md/rgb/spread.png "Pixel Spreading (color image)"
-[rgb_tran]: md/rgb/tran.png "Translation (color image)"
-[rgb_chain]: md/rgb/chain.png "Chained Filter Application (color image)"
-[uneq_rgb]: md/rgb/eq-in.png "Unequalized (color image)"
-[orig_rgb]: md/rgb/original.png "Original (color image)"
-[dust_rgb]: md/rgb/noise-in.png "Image with noise (color image)"
-
-[hist_rgb_1]: md/histogram/rgb_uneq.png "Unequalized Color Image Histogram"
-[hist_rgb_2]: md/histogram/rgb_eq.png "Equalized Color Image Histogram"
-[hist_gs_1]: md/histogram/gs_uneq.png "Unequalized Grayscale Image Histogram"
-[hist_gs_2]: md/histogram/gs_eq.png "Equalized Grayscale Image Histogram"
-
-
