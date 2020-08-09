@@ -2,7 +2,7 @@
 
 ## Implementation
 
-- [binar-search.js](./binary-search.js)
+- [binary-search.js](./binary-search.js)
 - Note the usage of `Math.round()` because otherwise we would be indexing the array in nonexistent positions.
 
 ## Caveats
