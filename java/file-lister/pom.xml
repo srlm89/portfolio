@@ -7,7 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
-        <junit.version>4.8.1</junit.version>
+        <junit.version>4.13.1</junit.version>
         <javac.version>1.7</javac.version>
         <easy-io.version>0.0.1-SNAPSHOT</easy-io.version>
         <mvn-compiler-plugin.version>3.5.1</mvn-compiler-plugin.version>
