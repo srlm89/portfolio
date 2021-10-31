@@ -1,8 +1,0 @@
-## [Invest in Your Strengths](https://www.marcusbuckingham.com/rwtb/invest-in-your-strengths-2/)
-
-- If you pose the question, "Will you grow the most in your areas of strength, or your areas of weakness?" to different countries around the world, every single one of them will have a majority choose "weaknesses" over "strengths."
-- They couldn’t be more wrong. If you want to grow –if you want to be successful in any way in your career, your relationships, your life– you’ve got to _focus_ on strengths, and _manage_ around your weaknesses.
-- We should all be characterizing ourselves based on _who_ we _are_, rather than _what_ we _lack_. I hope you wouldn’t stay in a relationship with a person who is fixated on your flaws and how to improve them – yet so many of us have that relationship with ourselves.  Start with your strengths, and learn how to contribute them. It’s the healthiest, most productive, and most generous relationship you can have with yourself.
-- You can grow *incrementally* in your areas of weakness, but research has proven you’ll grow *exponentially* in your areas of strength.
-- A strength is not something that you’re _good_ at, just like a weakness isn’t something that you’re _bad_ at. A strength is an activity that _strengthens_ you. That you look forward to doing. It’s an activity that leaves you feeling energized, rather than depleted. We all have things that we’re good at, but that we hate doing, right? Those are called weaknesses.
-- A strength is more _appetite_ than _ability_, and it’s that appetite that drives us to want to do it again; practice more; refine it to perfection. The appetite leads to the practice, which leads to performance.
